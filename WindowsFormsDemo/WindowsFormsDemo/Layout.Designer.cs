@@ -112,7 +112,7 @@
             this.tabMain.Location = new System.Drawing.Point(-1, -2);
             this.tabMain.Name = "tabMain";
             this.tabMain.SelectedIndex = 0;
-            this.tabMain.Size = new System.Drawing.Size(1358, 155);
+            this.tabMain.Size = new System.Drawing.Size(1331, 155);
             this.tabMain.TabIndex = 1;
             // 
             // tabProject
@@ -473,7 +473,7 @@
             this.tabSupport.Location = new System.Drawing.Point(4, 22);
             this.tabSupport.Name = "tabSupport";
             this.tabSupport.Padding = new System.Windows.Forms.Padding(3);
-            this.tabSupport.Size = new System.Drawing.Size(1350, 129);
+            this.tabSupport.Size = new System.Drawing.Size(1323, 129);
             this.tabSupport.TabIndex = 1;
             this.tabSupport.Text = "Support";
             // 
