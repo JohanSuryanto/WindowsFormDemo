@@ -42,17 +42,29 @@
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.label13 = new System.Windows.Forms.Label();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
+            this.label49 = new System.Windows.Forms.Label();
+            this.label43 = new System.Windows.Forms.Label();
+            this.label63 = new System.Windows.Forms.Label();
+            this.label60 = new System.Windows.Forms.Label();
+            this.label59 = new System.Windows.Forms.Label();
+            this.label57 = new System.Windows.Forms.Label();
+            this.label54 = new System.Windows.Forms.Label();
+            this.label53 = new System.Windows.Forms.Label();
+            this.label51 = new System.Windows.Forms.Label();
+            this.label48 = new System.Windows.Forms.Label();
+            this.label47 = new System.Windows.Forms.Label();
+            this.label44 = new System.Windows.Forms.Label();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.comboBox5 = new System.Windows.Forms.ComboBox();
@@ -74,20 +86,12 @@
             this.label39 = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
             this.label41 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.label47 = new System.Windows.Forms.Label();
-            this.label48 = new System.Windows.Forms.Label();
-            this.label51 = new System.Windows.Forms.Label();
-            this.label53 = new System.Windows.Forms.Label();
-            this.label54 = new System.Windows.Forms.Label();
-            this.label57 = new System.Windows.Forms.Label();
-            this.label59 = new System.Windows.Forms.Label();
-            this.label60 = new System.Windows.Forms.Label();
-            this.label63 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label49 = new System.Windows.Forms.Label();
             this.label42 = new System.Windows.Forms.Label();
             this.label45 = new System.Windows.Forms.Label();
+            this.label46 = new System.Windows.Forms.Label();
+            this.label50 = new System.Windows.Forms.Label();
+            this.label56 = new System.Windows.Forms.Label();
+            this.label62 = new System.Windows.Forms.Label();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -104,11 +108,6 @@
             this.label65 = new System.Windows.Forms.Label();
             this.label66 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label46 = new System.Windows.Forms.Label();
-            this.label50 = new System.Windows.Forms.Label();
-            this.label56 = new System.Windows.Forms.Label();
-            this.label62 = new System.Windows.Forms.Label();
             this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
@@ -120,7 +119,7 @@
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 39);
+            this.label1.Location = new System.Drawing.Point(9, 89);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(34, 13);
             this.label1.TabIndex = 0;
@@ -135,7 +134,7 @@
             "User Selection",
             "User Selection",
             "User Selection"});
-            this.comboBox1.Location = new System.Drawing.Point(53, 36);
+            this.comboBox1.Location = new System.Drawing.Point(49, 86);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(175, 21);
             this.comboBox1.TabIndex = 1;
@@ -145,7 +144,7 @@
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(250, 39);
+            this.label2.Location = new System.Drawing.Point(246, 89);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(77, 13);
             this.label2.TabIndex = 2;
@@ -154,7 +153,7 @@
             // dateTimePicker1
             // 
             this.dateTimePicker1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.dateTimePicker1.Location = new System.Drawing.Point(433, 43);
+            this.dateTimePicker1.Location = new System.Drawing.Point(429, 93);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(88, 20);
             this.dateTimePicker1.TabIndex = 5;
@@ -164,7 +163,7 @@
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(464, 26);
+            this.label3.Location = new System.Drawing.Point(460, 76);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(30, 13);
             this.label3.TabIndex = 6;
@@ -173,7 +172,7 @@
             // dateTimePicker2
             // 
             this.dateTimePicker2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.dateTimePicker2.Location = new System.Drawing.Point(537, 43);
+            this.dateTimePicker2.Location = new System.Drawing.Point(533, 93);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(86, 20);
             this.dateTimePicker2.TabIndex = 7;
@@ -183,7 +182,7 @@
             // 
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(568, 27);
+            this.label4.Location = new System.Drawing.Point(564, 77);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(20, 13);
             this.label4.TabIndex = 8;
@@ -192,7 +191,7 @@
             // textBox1
             // 
             this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.textBox1.Location = new System.Drawing.Point(654, 58);
+            this.textBox1.Location = new System.Drawing.Point(650, 108);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(210, 20);
             this.textBox1.TabIndex = 9;
@@ -205,7 +204,7 @@
             this.checkBox1.AutoSize = true;
             this.checkBox1.Checked = true;
             this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox1.Location = new System.Drawing.Point(344, 46);
+            this.checkBox1.Location = new System.Drawing.Point(340, 96);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(73, 17);
             this.checkBox1.TabIndex = 10;
@@ -220,7 +219,7 @@
             this.tableLayoutPanel2.ColumnCount = 1;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.Controls.Add(this.label12, 0, 0);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(15, 108);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(11, 158);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -248,7 +247,7 @@
             this.tableLayoutPanel3.ColumnCount = 1;
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.Controls.Add(this.label13, 0, 0);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(16, 252);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(12, 302);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -335,7 +334,7 @@
             this.tableLayoutPanel4.Controls.Add(this.label50, 7, 2);
             this.tableLayoutPanel4.Controls.Add(this.label56, 7, 3);
             this.tableLayoutPanel4.Controls.Add(this.label62, 7, 4);
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(15, 287);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(11, 337);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 5;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30.23145F));
@@ -346,115 +345,137 @@
             this.tableLayoutPanel4.Size = new System.Drawing.Size(853, 161);
             this.tableLayoutPanel4.TabIndex = 14;
             // 
-            // label14
+            // label49
             // 
-            this.label14.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(4, 17);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(53, 13);
-            this.label14.TabIndex = 15;
-            this.label14.Text = "Item No.";
-            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label49.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label49.AutoSize = true;
+            this.label49.Location = new System.Drawing.Point(466, 83);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(76, 13);
+            this.label49.TabIndex = 70;
+            this.label49.Text = "$70,173.00";
+            this.label49.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label15
+            // label43
             // 
-            this.label15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(64, 17);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(99, 13);
-            this.label15.TabIndex = 16;
-            this.label15.Text = "Tag Number(s)";
-            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label43.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label43.AutoSize = true;
+            this.label43.Location = new System.Drawing.Point(466, 55);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(76, 13);
+            this.label43.TabIndex = 61;
+            this.label43.Text = "$250,245.00";
+            this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label16
+            // label63
             // 
-            this.label16.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(170, 17);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(78, 13);
-            this.label16.TabIndex = 16;
-            this.label16.Text = "Model";
-            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label63.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label63.AutoSize = true;
+            this.label63.Location = new System.Drawing.Point(632, 139);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(69, 13);
+            this.label63.TabIndex = 59;
+            this.label63.Text = "67%";
+            this.label63.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label17
+            // label60
             // 
-            this.label17.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(255, 17);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(78, 13);
-            this.label17.TabIndex = 16;
-            this.label17.Text = "Application";
-            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label60.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label60.AutoSize = true;
+            this.label60.Location = new System.Drawing.Point(383, 139);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(76, 13);
+            this.label60.TabIndex = 56;
+            this.label60.Text = "$380,179.00";
+            this.label60.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label18
+            // label59
             // 
-            this.label18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(340, 17);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(36, 13);
-            this.label18.TabIndex = 16;
-            this.label18.Text = "QTY";
-            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label59.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label59.AutoSize = true;
+            this.label59.Location = new System.Drawing.Point(340, 139);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(36, 13);
+            this.label59.TabIndex = 55;
+            this.label59.Text = "3";
+            this.label59.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label19
+            // label57
             // 
-            this.label19.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(383, 17);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(76, 13);
-            this.label19.TabIndex = 16;
-            this.label19.Text = "Cost/Per";
-            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label57.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label57.AutoSize = true;
+            this.label57.Location = new System.Drawing.Point(632, 111);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(69, 13);
+            this.label57.TabIndex = 53;
+            this.label57.Text = "55%";
+            this.label57.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label20
+            // label54
             // 
-            this.label20.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(466, 17);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(76, 13);
-            this.label20.TabIndex = 16;
-            this.label20.Text = "Total Cost";
-            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label54.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label54.AutoSize = true;
+            this.label54.Location = new System.Drawing.Point(383, 111);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(76, 13);
+            this.label54.TabIndex = 50;
+            this.label54.Text = "$120,213.00";
+            this.label54.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label21
+            // label53
             // 
-            this.label21.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(549, 17);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(76, 13);
-            this.label21.TabIndex = 16;
-            this.label21.Text = "Price";
-            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label53.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label53.AutoSize = true;
+            this.label53.Location = new System.Drawing.Point(340, 111);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(36, 13);
+            this.label53.TabIndex = 49;
+            this.label53.Text = "2";
+            this.label53.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label22
+            // label51
             // 
-            this.label22.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(632, 17);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(69, 13);
-            this.label22.TabIndex = 16;
-            this.label22.Text = "GM";
-            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label51.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label51.AutoSize = true;
+            this.label51.Location = new System.Drawing.Point(632, 83);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(69, 13);
+            this.label51.TabIndex = 47;
+            this.label51.Text = "10%";
+            this.label51.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label23
+            // label48
             // 
-            this.label23.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(708, 17);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(69, 13);
-            this.label23.TabIndex = 16;
-            this.label23.Text = "In Proposal?";
-            this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label48.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label48.AutoSize = true;
+            this.label48.Location = new System.Drawing.Point(383, 83);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(76, 13);
+            this.label48.TabIndex = 44;
+            this.label48.Text = "$70,173.00";
+            this.label48.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label47
+            // 
+            this.label47.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label47.AutoSize = true;
+            this.label47.Location = new System.Drawing.Point(340, 83);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(36, 13);
+            this.label47.TabIndex = 43;
+            this.label47.Text = "1";
+            this.label47.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label44
+            // 
+            this.label44.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label44.AutoSize = true;
+            this.label44.Location = new System.Drawing.Point(383, 55);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(76, 13);
+            this.label44.TabIndex = 40;
+            this.label44.Text = "$250,245.00";
+            this.label44.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // comboBox2
             // 
@@ -469,6 +490,116 @@
             this.comboBox2.Tag = "";
             this.comboBox2.Text = "Yes";
             this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            // 
+            // label23
+            // 
+            this.label23.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(708, 17);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(69, 13);
+            this.label23.TabIndex = 16;
+            this.label23.Text = "In Proposal?";
+            this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label22
+            // 
+            this.label22.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(632, 17);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(69, 13);
+            this.label22.TabIndex = 16;
+            this.label22.Text = "GM";
+            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label21
+            // 
+            this.label21.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(549, 17);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(76, 13);
+            this.label21.TabIndex = 16;
+            this.label21.Text = "Price";
+            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label20
+            // 
+            this.label20.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(466, 17);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(76, 13);
+            this.label20.TabIndex = 16;
+            this.label20.Text = "Total Cost";
+            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label19
+            // 
+            this.label19.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(383, 17);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(76, 13);
+            this.label19.TabIndex = 16;
+            this.label19.Text = "Cost/Per";
+            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label18
+            // 
+            this.label18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(340, 17);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(36, 13);
+            this.label18.TabIndex = 16;
+            this.label18.Text = "QTY";
+            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label17
+            // 
+            this.label17.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(255, 17);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(78, 13);
+            this.label17.TabIndex = 16;
+            this.label17.Text = "Application";
+            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label16
+            // 
+            this.label16.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(170, 17);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(78, 13);
+            this.label16.TabIndex = 16;
+            this.label16.Text = "Model";
+            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label15
+            // 
+            this.label15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(64, 17);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(99, 13);
+            this.label15.TabIndex = 16;
+            this.label15.Text = "Tag Number(s)";
+            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label14
+            // 
+            this.label14.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(4, 17);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(53, 13);
+            this.label14.TabIndex = 15;
+            this.label14.Text = "Item No.";
+            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // comboBox3
             // 
@@ -704,138 +835,6 @@
             this.label41.Text = "33%";
             this.label41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label44
-            // 
-            this.label44.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label44.AutoSize = true;
-            this.label44.Location = new System.Drawing.Point(383, 55);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(76, 13);
-            this.label44.TabIndex = 40;
-            this.label44.Text = "$250,245.00";
-            this.label44.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label47
-            // 
-            this.label47.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label47.AutoSize = true;
-            this.label47.Location = new System.Drawing.Point(340, 83);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(36, 13);
-            this.label47.TabIndex = 43;
-            this.label47.Text = "1";
-            this.label47.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label48
-            // 
-            this.label48.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label48.AutoSize = true;
-            this.label48.Location = new System.Drawing.Point(383, 83);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(76, 13);
-            this.label48.TabIndex = 44;
-            this.label48.Text = "$70,173.00";
-            this.label48.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label51
-            // 
-            this.label51.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label51.AutoSize = true;
-            this.label51.Location = new System.Drawing.Point(632, 83);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(69, 13);
-            this.label51.TabIndex = 47;
-            this.label51.Text = "10%";
-            this.label51.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label53
-            // 
-            this.label53.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label53.AutoSize = true;
-            this.label53.Location = new System.Drawing.Point(340, 111);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(36, 13);
-            this.label53.TabIndex = 49;
-            this.label53.Text = "2";
-            this.label53.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label54
-            // 
-            this.label54.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label54.AutoSize = true;
-            this.label54.Location = new System.Drawing.Point(383, 111);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(76, 13);
-            this.label54.TabIndex = 50;
-            this.label54.Text = "$120,213.00";
-            this.label54.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label57
-            // 
-            this.label57.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label57.AutoSize = true;
-            this.label57.Location = new System.Drawing.Point(632, 111);
-            this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(69, 13);
-            this.label57.TabIndex = 53;
-            this.label57.Text = "55%";
-            this.label57.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label59
-            // 
-            this.label59.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label59.AutoSize = true;
-            this.label59.Location = new System.Drawing.Point(340, 139);
-            this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(36, 13);
-            this.label59.TabIndex = 55;
-            this.label59.Text = "3";
-            this.label59.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label60
-            // 
-            this.label60.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label60.AutoSize = true;
-            this.label60.Location = new System.Drawing.Point(383, 139);
-            this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(76, 13);
-            this.label60.TabIndex = 56;
-            this.label60.Text = "$380,179.00";
-            this.label60.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label63
-            // 
-            this.label63.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label63.AutoSize = true;
-            this.label63.Location = new System.Drawing.Point(632, 139);
-            this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(69, 13);
-            this.label63.TabIndex = 59;
-            this.label63.Text = "67%";
-            this.label63.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label43
-            // 
-            this.label43.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label43.AutoSize = true;
-            this.label43.Location = new System.Drawing.Point(466, 55);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(76, 13);
-            this.label43.TabIndex = 61;
-            this.label43.Text = "$250,245.00";
-            this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label49
-            // 
-            this.label49.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label49.AutoSize = true;
-            this.label49.Location = new System.Drawing.Point(466, 83);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(76, 13);
-            this.label49.TabIndex = 70;
-            this.label49.Text = "$70,173.00";
-            this.label49.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // label42
             // 
             this.label42.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
@@ -858,13 +857,57 @@
             this.label45.Text = "$380,179.00";
             this.label45.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // label46
+            // 
+            this.label46.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label46.AutoSize = true;
+            this.label46.Location = new System.Drawing.Point(549, 55);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(76, 13);
+            this.label46.TabIndex = 73;
+            this.label46.Text = "$250,245.00";
+            this.label46.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label50
+            // 
+            this.label50.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label50.AutoSize = true;
+            this.label50.Location = new System.Drawing.Point(549, 83);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(76, 13);
+            this.label50.TabIndex = 75;
+            this.label50.Text = "$70,173.00";
+            this.label50.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label56
+            // 
+            this.label56.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label56.AutoSize = true;
+            this.label56.Location = new System.Drawing.Point(549, 111);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(76, 13);
+            this.label56.TabIndex = 76;
+            this.label56.Text = "$120,213.00";
+            this.label56.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label62
+            // 
+            this.label62.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label62.AutoSize = true;
+            this.label62.Location = new System.Drawing.Point(549, 139);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(76, 13);
+            this.label62.TabIndex = 77;
+            this.label62.Text = "$380,179.00";
+            this.label62.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // tableLayoutPanel5
             // 
             this.tableLayoutPanel5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tableLayoutPanel5.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tableLayoutPanel5.ColumnCount = 1;
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(333, 25);
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(329, 75);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 1;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -1052,7 +1095,7 @@
             this.tableLayoutPanel1.Controls.Add(this.label7, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.label6, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.label5, 0, 0);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(15, 143);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(11, 193);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 44.44444F));
@@ -1061,66 +1104,12 @@
             this.tableLayoutPanel1.TabIndex = 11;
             this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(16, 7);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 16;
-            this.button1.Text = "FormC";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // label46
-            // 
-            this.label46.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label46.AutoSize = true;
-            this.label46.Location = new System.Drawing.Point(549, 55);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(76, 13);
-            this.label46.TabIndex = 73;
-            this.label46.Text = "$250,245.00";
-            this.label46.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label50
-            // 
-            this.label50.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label50.AutoSize = true;
-            this.label50.Location = new System.Drawing.Point(549, 83);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(76, 13);
-            this.label50.TabIndex = 75;
-            this.label50.Text = "$70,173.00";
-            this.label50.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label56
-            // 
-            this.label56.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label56.AutoSize = true;
-            this.label56.Location = new System.Drawing.Point(549, 111);
-            this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(76, 13);
-            this.label56.TabIndex = 76;
-            this.label56.Text = "$120,213.00";
-            this.label56.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label62
-            // 
-            this.label62.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label62.AutoSize = true;
-            this.label62.Location = new System.Drawing.Point(549, 139);
-            this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(76, 13);
-            this.label62.TabIndex = 77;
-            this.label62.Text = "$380,179.00";
-            this.label62.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // tableLayoutPanel6
             // 
             this.tableLayoutPanel6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.tableLayoutPanel6.ColumnCount = 1;
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel6.Location = new System.Drawing.Point(244, 21);
+            this.tableLayoutPanel6.Location = new System.Drawing.Point(240, 71);
             this.tableLayoutPanel6.Name = "tableLayoutPanel6";
             this.tableLayoutPanel6.RowCount = 1;
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -1132,7 +1121,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(880, 498);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.tableLayoutPanel4);
             this.Controls.Add(this.tableLayoutPanel3);
             this.Controls.Add(this.tableLayoutPanel2);
@@ -1150,6 +1138,7 @@
             this.Controls.Add(this.tableLayoutPanel6);
             this.Name = "Home";
             this.Text = "Home";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Home_Load);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
@@ -1242,7 +1231,6 @@
         private System.Windows.Forms.Label label65;
         private System.Windows.Forms.Label label66;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label46;
         private System.Windows.Forms.Label label50;
         private System.Windows.Forms.Label label56;

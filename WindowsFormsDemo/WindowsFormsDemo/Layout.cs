@@ -37,7 +37,12 @@ namespace WindowsFormsDemo
 
         private void buttonHome_Click(object sender, EventArgs e)
         {
-
+            Home home = new Home();
+            home.TopLevel = false;
+            panel1.Controls.Add(home);
+            home.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            home.Dock = DockStyle.Fill;
+            home.Show();
         }
 
         private void Form1_Load(object sender, EventArgs e)
