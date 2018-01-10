@@ -501,6 +501,7 @@
             this.buttonUserSetting.Text = "User settings";
             this.buttonUserSetting.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.buttonUserSetting.UseVisualStyleBackColor = false;
+            this.buttonUserSetting.Click += new System.EventHandler(this.buttonUserSetting_Click);
             // 
             // label6
             // 

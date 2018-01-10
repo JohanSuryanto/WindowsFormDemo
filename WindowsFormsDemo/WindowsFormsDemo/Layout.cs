@@ -39,6 +39,7 @@ namespace WindowsFormsDemo
         {
             Home home = new Home();
             home.TopLevel = false;
+            panel1.Controls.Clear();
             panel1.Controls.Add(home);
             home.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             home.Dock = DockStyle.Fill;
@@ -78,6 +79,18 @@ namespace WindowsFormsDemo
         private void groupBox10_Enter(object sender, EventArgs e)
         {
 
+        }
+
+        private void buttonUserSetting_Click(object sender, EventArgs e)
+        {
+
+            UserSettings page = new UserSettings();
+            page.TopLevel = false;
+            panel1.Controls.Clear();
+            panel1.Controls.Add(page);
+            page.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            page.Dock = DockStyle.Fill;
+            page.Show();
         }
     }
 }
