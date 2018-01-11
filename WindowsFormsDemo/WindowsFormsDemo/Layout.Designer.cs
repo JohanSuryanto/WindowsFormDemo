@@ -583,6 +583,7 @@
             this.buttonFlanges.Text = "Flanges";
             this.buttonFlanges.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.buttonFlanges.UseVisualStyleBackColor = false;
+            this.buttonFlanges.Click += new System.EventHandler(this.buttonFlanges_Click);
             // 
             // buttonMaterials
             // 
@@ -630,6 +631,7 @@
             this.buttonPipes.Text = "Pipes";
             this.buttonPipes.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.buttonPipes.UseVisualStyleBackColor = false;
+            this.buttonPipes.Click += new System.EventHandler(this.buttonPipes_Click);
             // 
             // groupBox9
             // 
@@ -665,6 +667,7 @@
             this.buttonCompany.Text = "Company";
             this.buttonCompany.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.buttonCompany.UseVisualStyleBackColor = false;
+            this.buttonCompany.Click += new System.EventHandler(this.buttonCompany_Click);
             // 
             // buttonProducts
             // 
@@ -680,6 +683,7 @@
             this.buttonProducts.Text = "Products";
             this.buttonProducts.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.buttonProducts.UseVisualStyleBackColor = false;
+            this.buttonProducts.Click += new System.EventHandler(this.buttonProducts_Click);
             // 
             // groupBox10
             // 
@@ -717,6 +721,7 @@
             this.buttonSync.Text = "Sync";
             this.buttonSync.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.buttonSync.UseVisualStyleBackColor = false;
+            this.buttonSync.Click += new System.EventHandler(this.buttonSync_Click);
             // 
             // buttonUsermanual
             // 
@@ -747,6 +752,7 @@
             this.buttonUpdate.Text = "Update";
             this.buttonUpdate.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.buttonUpdate.UseVisualStyleBackColor = false;
+            this.buttonUpdate.Click += new System.EventHandler(this.buttonUpdate_Click);
             // 
             // groupBox11
             // 
@@ -781,6 +787,7 @@
             this.buttonMaintenance.Text = "Maintenance";
             this.buttonMaintenance.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.buttonMaintenance.UseVisualStyleBackColor = false;
+            this.buttonMaintenance.Click += new System.EventHandler(this.buttonMaintenance_Click);
             // 
             // panel1
             // 
