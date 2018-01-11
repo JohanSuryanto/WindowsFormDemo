@@ -83,8 +83,40 @@ namespace WindowsFormsDemo
 
         private void buttonUserSetting_Click(object sender, EventArgs e)
         {
-
             UserSettings page = new UserSettings();
+            page.TopLevel = false;
+            panel1.Controls.Clear();
+            panel1.Controls.Add(page);
+            page.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            page.Dock = DockStyle.Fill;
+            page.Show();
+        }
+
+        private void buttonCaculator_Click(object sender, EventArgs e)
+        {
+            Calculators page = new Calculators();
+            page.TopLevel = false;
+            panel1.Controls.Clear();
+            panel1.Controls.Add(page);
+            page.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            page.Dock = DockStyle.Fill;
+            page.Show();
+        }
+
+        private void buttonFluids_Click(object sender, EventArgs e)
+        {
+            Fluids page = new Fluids();
+            page.TopLevel = false;
+            panel1.Controls.Clear();
+            panel1.Controls.Add(page);
+            page.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            page.Dock = DockStyle.Fill;
+            page.Show();
+        }
+
+        private void buttonMaterials_Click(object sender, EventArgs e)
+        {
+            Materials page = new Materials();
             page.TopLevel = false;
             panel1.Controls.Clear();
             panel1.Controls.Add(page);
