@@ -126,7 +126,7 @@
             this.tabProject.Location = new System.Drawing.Point(4, 22);
             this.tabProject.Name = "tabProject";
             this.tabProject.Padding = new System.Windows.Forms.Padding(3);
-            this.tabProject.Size = new System.Drawing.Size(1350, 129);
+            this.tabProject.Size = new System.Drawing.Size(1323, 129);
             this.tabProject.TabIndex = 0;
             this.tabProject.Text = "Project";
             this.tabProject.Click += new System.EventHandler(this.tabProject_Click);
@@ -516,16 +516,16 @@
             // 
             this.groupBox7.Controls.Add(this.label7);
             this.groupBox7.Controls.Add(this.buttonCaculator);
-            this.groupBox7.Location = new System.Drawing.Point(47, 0);
+            this.groupBox7.Location = new System.Drawing.Point(47, -17);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(108, 135);
+            this.groupBox7.Size = new System.Drawing.Size(117, 158);
             this.groupBox7.TabIndex = 3;
             this.groupBox7.TabStop = false;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(35, 116);
+            this.label7.Location = new System.Drawing.Point(36, 133);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(59, 13);
             this.label7.TabIndex = 5;
@@ -538,13 +538,14 @@
             this.buttonCaculator.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.buttonCaculator.FlatAppearance.BorderSize = 0;
             this.buttonCaculator.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonCaculator.Location = new System.Drawing.Point(29, 6);
+            this.buttonCaculator.Location = new System.Drawing.Point(29, 19);
             this.buttonCaculator.Name = "buttonCaculator";
             this.buttonCaculator.Size = new System.Drawing.Size(68, 91);
             this.buttonCaculator.TabIndex = 4;
             this.buttonCaculator.Text = "Calculator";
             this.buttonCaculator.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.buttonCaculator.UseVisualStyleBackColor = false;
+            this.buttonCaculator.Click += new System.EventHandler(this.buttonCaculator_Click);
             // 
             // groupBox8
             // 
@@ -597,6 +598,7 @@
             this.buttonMaterials.Text = "Materials";
             this.buttonMaterials.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.buttonMaterials.UseVisualStyleBackColor = false;
+            this.buttonMaterials.Click += new System.EventHandler(this.buttonMaterials_Click);
             // 
             // buttonFluids
             // 
@@ -612,6 +614,7 @@
             this.buttonFluids.Text = "Fluids";
             this.buttonFluids.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.buttonFluids.UseVisualStyleBackColor = false;
+            this.buttonFluids.Click += new System.EventHandler(this.buttonFluids_Click);
             // 
             // buttonPipes
             // 
