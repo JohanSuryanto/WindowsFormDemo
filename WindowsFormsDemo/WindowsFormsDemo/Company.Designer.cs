@@ -43,7 +43,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 36);
+            this.label1.Location = new System.Drawing.Point(12, 152);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(100, 16);
             this.label1.TabIndex = 0;
@@ -52,7 +52,7 @@
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(14, 87);
+            this.linkLabel1.Location = new System.Drawing.Point(14, 203);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(98, 13);
             this.linkLabel1.TabIndex = 9;
@@ -62,7 +62,7 @@
             // linkLabel2
             // 
             this.linkLabel2.AutoSize = true;
-            this.linkLabel2.Location = new System.Drawing.Point(14, 109);
+            this.linkLabel2.Location = new System.Drawing.Point(14, 225);
             this.linkLabel2.Name = "linkLabel2";
             this.linkLabel2.Size = new System.Drawing.Size(154, 13);
             this.linkLabel2.TabIndex = 10;
@@ -72,7 +72,7 @@
             // linkLabel3
             // 
             this.linkLabel3.AutoSize = true;
-            this.linkLabel3.Location = new System.Drawing.Point(14, 133);
+            this.linkLabel3.Location = new System.Drawing.Point(14, 249);
             this.linkLabel3.Name = "linkLabel3";
             this.linkLabel3.Size = new System.Drawing.Size(67, 13);
             this.linkLabel3.TabIndex = 11;
@@ -82,7 +82,7 @@
             // linkLabel4
             // 
             this.linkLabel4.AutoSize = true;
-            this.linkLabel4.Location = new System.Drawing.Point(14, 156);
+            this.linkLabel4.Location = new System.Drawing.Point(14, 272);
             this.linkLabel4.Name = "linkLabel4";
             this.linkLabel4.Size = new System.Drawing.Size(148, 13);
             this.linkLabel4.TabIndex = 12;
@@ -92,7 +92,7 @@
             // linkLabel5
             // 
             this.linkLabel5.AutoSize = true;
-            this.linkLabel5.Location = new System.Drawing.Point(14, 178);
+            this.linkLabel5.Location = new System.Drawing.Point(14, 294);
             this.linkLabel5.Name = "linkLabel5";
             this.linkLabel5.Size = new System.Drawing.Size(84, 13);
             this.linkLabel5.TabIndex = 13;
@@ -102,7 +102,7 @@
             // linkLabel6
             // 
             this.linkLabel6.AutoSize = true;
-            this.linkLabel6.Location = new System.Drawing.Point(14, 202);
+            this.linkLabel6.Location = new System.Drawing.Point(14, 318);
             this.linkLabel6.Name = "linkLabel6";
             this.linkLabel6.Size = new System.Drawing.Size(130, 13);
             this.linkLabel6.TabIndex = 14;
@@ -112,7 +112,7 @@
             // linkLabel7
             // 
             this.linkLabel7.AutoSize = true;
-            this.linkLabel7.Location = new System.Drawing.Point(14, 226);
+            this.linkLabel7.Location = new System.Drawing.Point(14, 342);
             this.linkLabel7.Name = "linkLabel7";
             this.linkLabel7.Size = new System.Drawing.Size(129, 13);
             this.linkLabel7.TabIndex = 15;
@@ -122,7 +122,7 @@
             // linkLabel8
             // 
             this.linkLabel8.AutoSize = true;
-            this.linkLabel8.Location = new System.Drawing.Point(14, 251);
+            this.linkLabel8.Location = new System.Drawing.Point(14, 367);
             this.linkLabel8.Name = "linkLabel8";
             this.linkLabel8.Size = new System.Drawing.Size(84, 13);
             this.linkLabel8.TabIndex = 16;

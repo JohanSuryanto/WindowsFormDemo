@@ -124,5 +124,82 @@ namespace WindowsFormsDemo
             page.Dock = DockStyle.Fill;
             page.Show();
         }
+
+        private void buttonProducts_Click(object sender, EventArgs e)
+        {
+            Products page = new Products();
+            page.TopLevel = false;
+            panel1.Controls.Clear();
+            panel1.Controls.Add(page);
+            page.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            page.Dock = DockStyle.Fill;
+            page.Show();
+        }
+
+        private void buttonCompany_Click(object sender, EventArgs e)
+        {
+            Company page = new Company();
+            page.TopLevel = false;
+            panel1.Controls.Clear();
+            panel1.Controls.Add(page);
+            page.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            page.Dock = DockStyle.Fill;
+            page.Show();
+        }
+
+        private void buttonFlanges_Click(object sender, EventArgs e)
+        {
+            Flanges page = new Flanges();
+            page.TopLevel = false;
+            panel1.Controls.Clear();
+            panel1.Controls.Add(page);
+            page.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            page.Dock = DockStyle.Fill;
+            page.Show();
+        }
+
+        private void buttonPipes_Click(object sender, EventArgs e)
+        {
+            Pipes page = new Pipes();
+            page.TopLevel = false;
+            panel1.Controls.Clear();
+            panel1.Controls.Add(page);
+            page.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            page.Dock = DockStyle.Fill;
+            page.Show();
+        }
+
+        private void buttonUpdate_Click(object sender, EventArgs e)
+        {
+            Update page = new Update();
+            page.TopLevel = false;
+            panel1.Controls.Clear();
+            panel1.Controls.Add(page);
+            page.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            page.Dock = DockStyle.Fill;
+            page.Show();
+        }
+
+        private void buttonSync_Click(object sender, EventArgs e)
+        {
+            Sync page = new Sync();
+            page.TopLevel = false;
+            panel1.Controls.Clear();
+            panel1.Controls.Add(page);
+            page.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            page.Dock = DockStyle.Fill;
+            page.Show();
+        }
+
+        private void buttonMaintenance_Click(object sender, EventArgs e)
+        {
+            Maintenance page = new Maintenance();
+            page.TopLevel = false;
+            panel1.Controls.Clear();
+            panel1.Controls.Add(page);
+            page.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            page.Dock = DockStyle.Fill;
+            page.Show();
+        }
     }
 }
