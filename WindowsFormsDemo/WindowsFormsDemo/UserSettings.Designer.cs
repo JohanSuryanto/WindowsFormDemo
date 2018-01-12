@@ -169,6 +169,7 @@
             this.comboBoxOutputLanguage.Name = "comboBoxOutputLanguage";
             this.comboBoxOutputLanguage.Size = new System.Drawing.Size(170, 21);
             this.comboBoxOutputLanguage.TabIndex = 8;
+            this.comboBoxOutputLanguage.SelectedIndexChanged += new System.EventHandler(this.comboBoxOutputLanguage_SelectedIndexChanged);
             // 
             // comboBoxUiLanguage
             // 

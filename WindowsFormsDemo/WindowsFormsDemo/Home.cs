@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Threading;
+using System.Globalization;
 
 namespace WindowsFormsDemo
 {
@@ -17,6 +19,17 @@ namespace WindowsFormsDemo
         {
             
             InitializeComponent();
+        }
+
+        public void setCultureInfo(string culture)
+        {
+            CultureInfo myCultureInfo = new CultureInfo(culture);
+            Thread.CurrentThread.CurrentCulture = myCultureInfo;
+            Thread.CurrentThread.CurrentUICulture = myCultureInfo;
+            InitializeComponent();
+
+            //label68.Text = CommonResource.Description;
+            //label67.Text = "INFO" + myCultureInfo.EnglishName;
         }
 
         private void Home_Load(object sender, EventArgs e)

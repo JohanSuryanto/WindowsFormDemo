@@ -45,11 +45,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1362, 741);
+            this.ClientSize = new System.Drawing.Size(1028, 741);
             this.Controls.Add(this.label1);
             this.Name = "Update";
             this.Text = "Update";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Update_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

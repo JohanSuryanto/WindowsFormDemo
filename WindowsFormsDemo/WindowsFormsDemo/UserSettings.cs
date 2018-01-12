@@ -78,5 +78,10 @@ namespace WindowsFormsDemo
                 return Text;
             }
         }
+
+        private void comboBoxOutputLanguage_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
