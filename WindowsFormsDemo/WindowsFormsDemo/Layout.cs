@@ -33,7 +33,7 @@ namespace WindowsFormsDemo
 
         private void groupBox1_Enter(object sender, EventArgs e)
         {
-                    }
+        }
 
         private void buttonHome_Click(object sender, EventArgs e)
         {
@@ -48,7 +48,11 @@ namespace WindowsFormsDemo
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            string lang = Environment.GetEnvironmentVariable("lang");
+            if (lang == null)
+            {
+                Environment.SetEnvironmentVariable("lang", "en-US");
+            }
         }
 
         private void groupBox3_Enter(object sender, EventArgs e)
@@ -200,6 +204,11 @@ namespace WindowsFormsDemo
             page.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             page.Dock = DockStyle.Fill;
             page.Show();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

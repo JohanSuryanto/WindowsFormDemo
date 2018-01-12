@@ -177,6 +177,7 @@
             this.comboBoxUiLanguage.Name = "comboBoxUiLanguage";
             this.comboBoxUiLanguage.Size = new System.Drawing.Size(170, 21);
             this.comboBoxUiLanguage.TabIndex = 9;
+            this.comboBoxUiLanguage.SelectedIndexChanged += new System.EventHandler(this.comboBoxUiLanguage_SelectedIndexChanged);
             // 
             // comboBoxDefaultPrint
             // 
@@ -671,6 +672,7 @@
             this.Controls.Add(this.label1);
             this.Name = "UserSettings";
             this.Text = " ";
+            this.Load += new System.EventHandler(this.UserSettings_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

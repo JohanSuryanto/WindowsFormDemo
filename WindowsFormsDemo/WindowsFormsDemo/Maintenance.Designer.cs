@@ -49,6 +49,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Maintenance";
             this.Text = "Maintenance";
+            this.Load += new System.EventHandler(this.Maintenance_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

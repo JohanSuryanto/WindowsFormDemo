@@ -28,30 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.labelCategories = new System.Windows.Forms.Label();
             this.buttonFavorites = new System.Windows.Forms.Button();
             this.buttonDesuperheating = new System.Windows.Forms.Button();
             this.buttonFluids = new System.Windows.Forms.Button();
             this.buttonGeneral = new System.Windows.Forms.Button();
             this.buttonActuators = new System.Windows.Forms.Button();
             this.buttonValveDesing = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
+            this.labelSearch = new System.Windows.Forms.Label();
             this.textBoxSearch = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.richTextBoxFavorites = new System.Windows.Forms.RichTextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.labelFavorite = new System.Windows.Forms.Label();
+            this.labelSeatLeak = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label1
+            // labelCategories
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(9, 166);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(74, 16);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Categories";
+            this.labelCategories.AutoSize = true;
+            this.labelCategories.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelCategories.Location = new System.Drawing.Point(9, 166);
+            this.labelCategories.Name = "labelCategories";
+            this.labelCategories.Size = new System.Drawing.Size(74, 16);
+            this.labelCategories.TabIndex = 0;
+            this.labelCategories.Text = "Categories";
             // 
             // buttonFavorites
             // 
@@ -125,14 +125,14 @@
             this.buttonValveDesing.Text = "Valve Desing";
             this.buttonValveDesing.UseVisualStyleBackColor = false;
             // 
-            // label2
+            // labelSearch
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(13, 311);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(41, 13);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Search";
+            this.labelSearch.AutoSize = true;
+            this.labelSearch.Location = new System.Drawing.Point(13, 311);
+            this.labelSearch.Name = "labelSearch";
+            this.labelSearch.Size = new System.Drawing.Size(41, 13);
+            this.labelSearch.TabIndex = 7;
+            this.labelSearch.Text = "Search";
             // 
             // textBoxSearch
             // 
@@ -159,46 +159,47 @@
             this.richTextBoxFavorites.TabIndex = 10;
             this.richTextBoxFavorites.Text = "";
             // 
-            // label4
+            // labelFavorite
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(16, 410);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(50, 13);
-            this.label4.TabIndex = 11;
-            this.label4.Text = "Favorites";
+            this.labelFavorite.AutoSize = true;
+            this.labelFavorite.Location = new System.Drawing.Point(16, 410);
+            this.labelFavorite.Name = "labelFavorite";
+            this.labelFavorite.Size = new System.Drawing.Size(50, 13);
+            this.labelFavorite.TabIndex = 11;
+            this.labelFavorite.Text = "Favorites";
             // 
-            // label5
+            // labelSeatLeak
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(458, 166);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(93, 16);
-            this.label5.TabIndex = 12;
-            this.label5.Text = "Seat Leakage";
+            this.labelSeatLeak.AutoSize = true;
+            this.labelSeatLeak.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelSeatLeak.Location = new System.Drawing.Point(458, 166);
+            this.labelSeatLeak.Name = "labelSeatLeak";
+            this.labelSeatLeak.Size = new System.Drawing.Size(93, 16);
+            this.labelSeatLeak.TabIndex = 12;
+            this.labelSeatLeak.Text = "Seat Leakage";
             // 
             // Calculators
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(703, 558);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.labelSeatLeak);
+            this.Controls.Add(this.labelFavorite);
             this.Controls.Add(this.richTextBoxFavorites);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBoxSearch);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.labelSearch);
             this.Controls.Add(this.buttonGeneral);
             this.Controls.Add(this.buttonActuators);
             this.Controls.Add(this.buttonValveDesing);
             this.Controls.Add(this.buttonFluids);
             this.Controls.Add(this.buttonDesuperheating);
             this.Controls.Add(this.buttonFavorites);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.labelCategories);
             this.Name = "Calculators";
             this.Text = "Calculator";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Calculators_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -206,18 +207,18 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label labelCategories;
         private System.Windows.Forms.Button buttonFavorites;
         private System.Windows.Forms.Button buttonDesuperheating;
         private System.Windows.Forms.Button buttonFluids;
         private System.Windows.Forms.Button buttonGeneral;
         private System.Windows.Forms.Button buttonActuators;
         private System.Windows.Forms.Button buttonValveDesing;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label labelSearch;
         private System.Windows.Forms.TextBox textBoxSearch;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.RichTextBox richTextBoxFavorites;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label labelFavorite;
+        private System.Windows.Forms.Label labelSeatLeak;
     }
 }
