@@ -54,17 +54,23 @@ namespace WindowsFormsDemo
 
         private void UserSettings_Load(object sender, EventArgs e)
         {
+            string findString = "";
+            var lang = Environment.GetEnvironmentVariable("lang");
             for (int i = 0; i < textUiLang.Count(); i++)
             {
                 ComboboxItem item = new ComboboxItem();
                 item.Text = textUiLang[i];
                 item.Value = valueUiLang[i];
                 comboBoxUiLanguage.Items.Add(item);
+                if(lang == valueUiLang[i])
+                {
+                    findString = textUiLang[i];
+                }
             }
 
-            
-            //int index = comboBoxUiLanguage.FindString((comboBoxUiLanguage.SelectedItem as ComboboxItem).Value.ToString());
-            comboBoxUiLanguage.SelectedIndex = 0;
+
+            int index = comboBoxUiLanguage.FindString(findString);
+            comboBoxUiLanguage.SelectedIndex = index;
         }
 
 
