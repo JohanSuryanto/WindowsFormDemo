@@ -118,204 +118,204 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Actuator" xml:space="preserve">
-    <value>Actuator</value>
+    <value>Aktuator</value>
   </data>
   <data name="Application" xml:space="preserve">
-    <value>Application</value>
+    <value>Aplikasi</value>
   </data>
   <data name="Area" xml:space="preserve">
     <value>Area</value>
   </data>
   <data name="Brochure" xml:space="preserve">
-    <value>Brochure</value>
+    <value>Brosur</value>
   </data>
   <data name="Calculator" xml:space="preserve">
-    <value>Calculator</value>
+    <value>Kalkulator</value>
   </data>
   <data name="Categories" xml:space="preserve">
-    <value>Categories</value>
+    <value>Kategori</value>
   </data>
   <data name="Code" xml:space="preserve">
-    <value>Code</value>
+    <value>Kode</value>
   </data>
   <data name="CompanyLink" xml:space="preserve">
-    <value>Company Link</value>
+    <value>Link Perusahaan</value>
   </data>
   <data name="Competiton" xml:space="preserve">
-    <value>Competiton</value>
+    <value>Kompetisi</value>
   </data>
   <data name="Currency" xml:space="preserve">
-    <value>Currency</value>
+    <value>Mata Uang</value>
   </data>
   <data name="DateFormat" xml:space="preserve">
-    <value>Date Format</value>
+    <value>Format Tanggal</value>
   </data>
   <data name="DesignPressure" xml:space="preserve">
-    <value>Design Pressure</value>
+    <value>Tekanan Desain</value>
   </data>
   <data name="Desity" xml:space="preserve">
-    <value>Desity</value>
+    <value>Massa Jenis</value>
   </data>
   <data name="Desuperheating" xml:space="preserve">
     <value>Desuperheating</value>
   </data>
   <data name="DisplaysProductsAttributes" xml:space="preserve">
-    <value>Displays Products Attributes</value>
+    <value>Tampilan Atribut Produk</value>
   </data>
   <data name="Distance" xml:space="preserve">
-    <value>Distance</value>
+    <value>Jarak</value>
   </data>
   <data name="Enthalpy" xml:space="preserve">
-    <value>Enthalpy</value>
+    <value>Entalpi</value>
   </data>
   <data name="Entholpy" xml:space="preserve">
     <value>Entholpy</value>
   </data>
   <data name="Favorites" xml:space="preserve">
-    <value>Favorites</value>
+    <value>Favorit</value>
   </data>
   <data name="FlangeRating" xml:space="preserve">
-    <value>Flange Rating</value>
+    <value>Nilai Flange</value>
   </data>
   <data name="FlangeType" xml:space="preserve">
-    <value>Flange Type</value>
+    <value>Tipe Flange</value>
   </data>
   <data name="Fluids" xml:space="preserve">
-    <value>Fluids</value>
+    <value>Cairan</value>
   </data>
   <data name="Force" xml:space="preserve">
-    <value>Force</value>
+    <value>Kekuatan</value>
   </data>
   <data name="GasVolumeFlow" xml:space="preserve">
-    <value>Gas Volume Flow</value>
+    <value>Arus Volume Gas</value>
   </data>
   <data name="General" xml:space="preserve">
-    <value>General</value>
+    <value>Umum</value>
   </data>
   <data name="InstallBase" xml:space="preserve">
-    <value>Install Base</value>
+    <value>Dasar Instalasi</value>
   </data>
   <data name="KineticEnergy" xml:space="preserve">
-    <value>Kinetic Energy</value>
+    <value>Energi Kinetik</value>
   </data>
   <data name="LeadTimes" xml:space="preserve">
-    <value>Lead Times</value>
+    <value>Waktu Memimpin</value>
   </data>
   <data name="Length" xml:space="preserve">
-    <value>Length</value>
+    <value>Panjanga</value>
   </data>
   <data name="Libraries" xml:space="preserve">
-    <value>Libraries</value>
+    <value>Perpustakaan</value>
   </data>
   <data name="LiquidVolumeFlow" xml:space="preserve">
-    <value>Liquid Volume Flow</value>
+    <value>Aliran Volume Cair</value>
   </data>
   <data name="Literature" xml:space="preserve">
-    <value>Literature</value>
+    <value>Bacaan</value>
   </data>
   <data name="Maintenance" xml:space="preserve">
-    <value>Maintenance</value>
+    <value>Pemeliharaan</value>
   </data>
   <data name="MassFlow" xml:space="preserve">
-    <value>Mass Flow</value>
+    <value>Aliran massa</value>
   </data>
   <data name="Materials" xml:space="preserve">
-    <value>Materials</value>
+    <value>Bahan</value>
   </data>
   <data name="OutputLanguage" xml:space="preserve">
-    <value>Output Language</value>
+    <value>Bahasa Keluaran</value>
   </data>
   <data name="Pipes" xml:space="preserve">
-    <value>Pipes</value>
+    <value>Pipa</value>
   </data>
   <data name="Presentations" xml:space="preserve">
-    <value>Presentations</value>
+    <value>Presentasi</value>
   </data>
   <data name="ProductLiterature" xml:space="preserve">
-    <value>Product Literature</value>
+    <value>Bacaan Produk</value>
   </data>
   <data name="ProductType" xml:space="preserve">
-    <value>Product Type</value>
+    <value>Tipe Produk</value>
   </data>
   <data name="ProjectPreferences" xml:space="preserve">
-    <value>Project Preferences</value>
+    <value>Preferensi Proyek</value>
   </data>
   <data name="Search" xml:space="preserve">
-    <value>Search</value>
+    <value>Cari</value>
   </data>
   <data name="SeatLeakage" xml:space="preserve">
-    <value>Seat Leakage</value>
+    <value>Kebocoran Kursi</value>
   </data>
   <data name="SelectFluidType" xml:space="preserve">
-    <value>SelectFluidType</value>
+    <value>Pilih Jenis Cairan</value>
   </data>
   <data name="SelectMaterialType" xml:space="preserve">
-    <value>Select Material Type</value>
+    <value>Pilih Tipe Bahan</value>
   </data>
   <data name="SelectPipeCategory" xml:space="preserve">
-    <value>Select Pipe Category</value>
+    <value>Pilih Tipe Kategori</value>
   </data>
   <data name="SelectProduct" xml:space="preserve">
-    <value>SelectProduct</value>
+    <value>Pilih Produk</value>
   </data>
   <data name="SelectProductType" xml:space="preserve">
-    <value>Select Product Type</value>
+    <value>Pilih Tipe Produk</value>
   </data>
   <data name="ServicePressure" xml:space="preserve">
-    <value>Service Pressure</value>
+    <value>Layanan Tekanan</value>
   </data>
   <data name="SetDefaultPrintOption" xml:space="preserve">
-    <value>Set Default Print Option</value>
+    <value>Setel Opsi Cetak Default</value>
   </data>
   <data name="SoundPower" xml:space="preserve">
-    <value>Sound Power</value>
+    <value>Kekuatan Suara</value>
   </data>
   <data name="SpecificVolume" xml:space="preserve">
-    <value>Specific Volume</value>
+    <value>Volume Tertentu</value>
   </data>
   <data name="SpringRate" xml:space="preserve">
-    <value>Spring Rate</value>
+    <value>Tingkat musim semi</value>
   </data>
   <data name="Stress" xml:space="preserve">
     <value>Stress</value>
   </data>
   <data name="SuccessStories" xml:space="preserve">
-    <value>Success Stories</value>
+    <value>Cerita-Cerita Sukses</value>
   </data>
   <data name="Sync" xml:space="preserve">
-    <value>Sync</value>
+    <value>Sinkronkan</value>
   </data>
   <data name="UILanguage" xml:space="preserve">
-    <value>UI Language</value>
+    <value>Bahasa UI</value>
   </data>
   <data name="UnitGroup" xml:space="preserve">
-    <value>Unit Group</value>
+    <value>Grup Unit</value>
   </data>
   <data name="Update" xml:space="preserve">
-    <value>Update</value>
+    <value>Memperbaharui</value>
   </data>
   <data name="UserManual" xml:space="preserve">
-    <value>UserManual</value>
+    <value>Panduan pengguna</value>
   </data>
   <data name="UserPreferences" xml:space="preserve">
-    <value>User Preferences</value>
+    <value>Preferensi Pengguna</value>
   </data>
   <data name="UserSettings" xml:space="preserve">
-    <value>User Settings</value>
+    <value>Pengaturan Pengguna</value>
   </data>
   <data name="UserUnits" xml:space="preserve">
-    <value>User Units</value>
+    <value>Unit Pengguna</value>
   </data>
   <data name="ValveDesing" xml:space="preserve">
-    <value>Valve Desing</value>
+    <value>Desain Valve</value>
   </data>
   <data name="Velocity" xml:space="preserve">
-    <value>Velocity</value>
+    <value>Kecepatan</value>
   </data>
   <data name="Viscocity" xml:space="preserve">
-    <value>Viscocity</value>
+    <value>Kelekatan</value>
   </data>
   <data name="Volume" xml:space="preserve">
-    <value>Volume</value>
+    <value>Suara</value>
   </data>
 </root>

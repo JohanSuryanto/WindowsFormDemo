@@ -50,7 +50,7 @@
             this.Name = "Update";
             this.Text = "Update";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.Update_Load);
+            //this.Load += new System.EventHandler(this.Update_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

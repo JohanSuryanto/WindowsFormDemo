@@ -17,23 +17,23 @@ namespace WindowsFormsDemo
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            string language = languageComboBox.SelectedItem.ToString();
-            string cultureInfo;
-            switch (language)
-            {
-                case "Indonesia":
-                    cultureInfo = "id-ID";
-                    break;
-                default:
-                    cultureInfo = "en-US";
-                    break;
-            }
-            Layout setLay = new Layout();
-            Update setUp = new Update();
-            setUp.setCultureInfo(cultureInfo);
-            setUp.Show();
-        }
+        //private void button1_Click(object sender, EventArgs e)
+        //{
+        //    string language = languageComboBox.SelectedItem.ToString();
+        //    //string cultureInfo;
+        //    switch (language)
+        //    {
+        //        case "Indonesia":
+        //            cultureInfo = "id-ID";
+        //            break;
+        //        default:
+        //            cultureInfo = "en-US";
+        //            break;
+        //    }
+        //    Layout setLay = new Layout();
+        //    Update setUp = new Update();
+        //    //setUp.setCultureInfo(cultureInfo);
+        //    setUp.Show();
+        //}
     }
 }
