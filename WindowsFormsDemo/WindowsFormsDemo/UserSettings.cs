@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsDemo;
 using WindowsFormsDemo.lang;
 
 namespace WindowsFormsDemo
@@ -16,12 +17,13 @@ namespace WindowsFormsDemo
         private string[] textUiLang = { "English" , "Indonesia", "Chinese" };
         private string[] valueUiLang = { "en-US" , "id-ID" , "ii-CN" }; 
         private LanguageChange languageChange = new LanguageChange();
-
+        public Layout layout = new Layout();
         public UserSettings()
         {
             InitializeComponent();
         }
 
+       
         private void comboBoxUiLanguage_SelectedIndexChanged(object sender, EventArgs e)
         {
             string selected = comboBoxUiLanguage.Text;
@@ -88,6 +90,7 @@ namespace WindowsFormsDemo
             label23.Text = obj.resManage.GetString("SpringRate", obj.cultureInfo);
             label22.Text = obj.resManage.GetString("Stress", obj.cultureInfo);
             label21.Text = obj.resManage.GetString("SoundPower", obj.cultureInfo);
+            layout.Refresh();
         }
 
         private void UserSettings_Load(object sender, EventArgs e)
@@ -129,5 +132,6 @@ namespace WindowsFormsDemo
         {
 
         }
+
     }
 }
