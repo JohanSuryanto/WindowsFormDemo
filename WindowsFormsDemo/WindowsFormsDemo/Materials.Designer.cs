@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.labelMaterials = new System.Windows.Forms.Label();
             this.textBoxSearch = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.labelSelectMaterialType = new System.Windows.Forms.Label();
+            this.labelSearch = new System.Windows.Forms.Label();
             this.comboBoxMaterialType = new System.Windows.Forms.ComboBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.MaterialGroup = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -52,40 +52,40 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // labelMaterials
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 172);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(63, 16);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Materials";
+            this.labelMaterials.AutoSize = true;
+            this.labelMaterials.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelMaterials.Location = new System.Drawing.Point(12, 172);
+            this.labelMaterials.Name = "labelMaterials";
+            this.labelMaterials.Size = new System.Drawing.Size(63, 16);
+            this.labelMaterials.TabIndex = 0;
+            this.labelMaterials.Text = "Materials";
             // 
             // textBoxSearch
             // 
-            this.textBoxSearch.Location = new System.Drawing.Point(64, 256);
+            this.textBoxSearch.Location = new System.Drawing.Point(127, 256);
             this.textBoxSearch.Name = "textBoxSearch";
-            this.textBoxSearch.Size = new System.Drawing.Size(262, 20);
+            this.textBoxSearch.Size = new System.Drawing.Size(199, 20);
             this.textBoxSearch.TabIndex = 1;
             // 
-            // label2
+            // labelSelectMaterialType
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(17, 229);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(104, 13);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Select Material Type";
+            this.labelSelectMaterialType.AutoSize = true;
+            this.labelSelectMaterialType.Location = new System.Drawing.Point(17, 229);
+            this.labelSelectMaterialType.Name = "labelSelectMaterialType";
+            this.labelSelectMaterialType.Size = new System.Drawing.Size(104, 13);
+            this.labelSelectMaterialType.TabIndex = 2;
+            this.labelSelectMaterialType.Text = "Select Material Type";
             // 
-            // label3
+            // labelSearch
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(17, 256);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(41, 13);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Search";
+            this.labelSearch.AutoSize = true;
+            this.labelSearch.Location = new System.Drawing.Point(17, 256);
+            this.labelSearch.Name = "labelSearch";
+            this.labelSearch.Size = new System.Drawing.Size(41, 13);
+            this.labelSearch.TabIndex = 3;
+            this.labelSearch.Text = "Search";
             // 
             // comboBoxMaterialType
             // 
@@ -203,12 +203,13 @@
             this.ClientSize = new System.Drawing.Size(1272, 741);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.comboBoxMaterialType);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.labelSearch);
+            this.Controls.Add(this.labelSelectMaterialType);
             this.Controls.Add(this.textBoxSearch);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.labelMaterials);
             this.Name = "Materials";
             this.Text = "Materials";
+            this.Load += new System.EventHandler(this.Materials_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -217,10 +218,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label labelMaterials;
         private System.Windows.Forms.TextBox textBoxSearch;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label labelSelectMaterialType;
+        private System.Windows.Forms.Label labelSearch;
         private System.Windows.Forms.ComboBox comboBoxMaterialType;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn MaterialGroup;

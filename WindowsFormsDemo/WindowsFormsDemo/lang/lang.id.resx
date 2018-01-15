@@ -118,36 +118,204 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Actuator" xml:space="preserve">
-    <value>Aktuator</value>
+    <value>Actuator</value>
+  </data>
+  <data name="Application" xml:space="preserve">
+    <value>Application</value>
+  </data>
+  <data name="Area" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="Brochure" xml:space="preserve">
+    <value>Brochure</value>
   </data>
   <data name="Calculator" xml:space="preserve">
-    <value>Kalkulator</value>
+    <value>Calculator</value>
   </data>
   <data name="Categories" xml:space="preserve">
-    <value>Kategori</value>
+    <value>Categories</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="CompanyLink" xml:space="preserve">
+    <value>Company Link</value>
+  </data>
+  <data name="Competiton" xml:space="preserve">
+    <value>Competiton</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>Currency</value>
+  </data>
+  <data name="DateFormat" xml:space="preserve">
+    <value>Date Format</value>
+  </data>
+  <data name="DesignPressure" xml:space="preserve">
+    <value>Design Pressure</value>
+  </data>
+  <data name="Desity" xml:space="preserve">
+    <value>Desity</value>
   </data>
   <data name="Desuperheating" xml:space="preserve">
     <value>Desuperheating</value>
   </data>
+  <data name="DisplaysProductsAttributes" xml:space="preserve">
+    <value>Displays Products Attributes</value>
+  </data>
+  <data name="Distance" xml:space="preserve">
+    <value>Distance</value>
+  </data>
+  <data name="Enthalpy" xml:space="preserve">
+    <value>Enthalpy</value>
+  </data>
+  <data name="Entholpy" xml:space="preserve">
+    <value>Entholpy</value>
+  </data>
   <data name="Favorites" xml:space="preserve">
-    <value>Favorit</value>
+    <value>Favorites</value>
+  </data>
+  <data name="FlangeRating" xml:space="preserve">
+    <value>Flange Rating</value>
+  </data>
+  <data name="FlangeType" xml:space="preserve">
+    <value>Flange Type</value>
   </data>
   <data name="Fluids" xml:space="preserve">
-    <value>Cairan</value>
+    <value>Fluids</value>
+  </data>
+  <data name="Force" xml:space="preserve">
+    <value>Force</value>
+  </data>
+  <data name="GasVolumeFlow" xml:space="preserve">
+    <value>Gas Volume Flow</value>
   </data>
   <data name="General" xml:space="preserve">
-    <value>Umun</value>
+    <value>General</value>
+  </data>
+  <data name="InstallBase" xml:space="preserve">
+    <value>Install Base</value>
+  </data>
+  <data name="KineticEnergy" xml:space="preserve">
+    <value>Kinetic Energy</value>
+  </data>
+  <data name="LeadTimes" xml:space="preserve">
+    <value>Lead Times</value>
+  </data>
+  <data name="Length" xml:space="preserve">
+    <value>Length</value>
+  </data>
+  <data name="Libraries" xml:space="preserve">
+    <value>Libraries</value>
+  </data>
+  <data name="LiquidVolumeFlow" xml:space="preserve">
+    <value>Liquid Volume Flow</value>
+  </data>
+  <data name="Literature" xml:space="preserve">
+    <value>Literature</value>
   </data>
   <data name="Maintenance" xml:space="preserve">
-    <value>Pemeliharaan</value>
+    <value>Maintenance</value>
+  </data>
+  <data name="MassFlow" xml:space="preserve">
+    <value>Mass Flow</value>
+  </data>
+  <data name="Materials" xml:space="preserve">
+    <value>Materials</value>
+  </data>
+  <data name="OutputLanguage" xml:space="preserve">
+    <value>Output Language</value>
+  </data>
+  <data name="Pipes" xml:space="preserve">
+    <value>Pipes</value>
+  </data>
+  <data name="Presentations" xml:space="preserve">
+    <value>Presentations</value>
+  </data>
+  <data name="ProductLiterature" xml:space="preserve">
+    <value>Product Literature</value>
+  </data>
+  <data name="ProductType" xml:space="preserve">
+    <value>Product Type</value>
+  </data>
+  <data name="ProjectPreferences" xml:space="preserve">
+    <value>Project Preferences</value>
   </data>
   <data name="Search" xml:space="preserve">
-    <value>Pencarian</value>
+    <value>Search</value>
   </data>
   <data name="SeatLeakage" xml:space="preserve">
-    <value>Kursi Kebocoran</value>
+    <value>Seat Leakage</value>
+  </data>
+  <data name="SelectFluidType" xml:space="preserve">
+    <value>SelectFluidType</value>
+  </data>
+  <data name="SelectMaterialType" xml:space="preserve">
+    <value>Select Material Type</value>
+  </data>
+  <data name="SelectPipeCategory" xml:space="preserve">
+    <value>Select Pipe Category</value>
+  </data>
+  <data name="SelectProduct" xml:space="preserve">
+    <value>SelectProduct</value>
+  </data>
+  <data name="SelectProductType" xml:space="preserve">
+    <value>Select Product Type</value>
+  </data>
+  <data name="ServicePressure" xml:space="preserve">
+    <value>Service Pressure</value>
+  </data>
+  <data name="SetDefaultPrintOption" xml:space="preserve">
+    <value>Set Default Print Option</value>
+  </data>
+  <data name="SoundPower" xml:space="preserve">
+    <value>Sound Power</value>
+  </data>
+  <data name="SpecificVolume" xml:space="preserve">
+    <value>Specific Volume</value>
+  </data>
+  <data name="SpringRate" xml:space="preserve">
+    <value>Spring Rate</value>
+  </data>
+  <data name="Stress" xml:space="preserve">
+    <value>Stress</value>
+  </data>
+  <data name="SuccessStories" xml:space="preserve">
+    <value>Success Stories</value>
+  </data>
+  <data name="Sync" xml:space="preserve">
+    <value>Sync</value>
+  </data>
+  <data name="UILanguage" xml:space="preserve">
+    <value>UI Language</value>
+  </data>
+  <data name="UnitGroup" xml:space="preserve">
+    <value>Unit Group</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="UserManual" xml:space="preserve">
+    <value>UserManual</value>
+  </data>
+  <data name="UserPreferences" xml:space="preserve">
+    <value>User Preferences</value>
+  </data>
+  <data name="UserSettings" xml:space="preserve">
+    <value>User Settings</value>
+  </data>
+  <data name="UserUnits" xml:space="preserve">
+    <value>User Units</value>
   </data>
   <data name="ValveDesing" xml:space="preserve">
-    <value>Desain Valve</value>
+    <value>Valve Desing</value>
+  </data>
+  <data name="Velocity" xml:space="preserve">
+    <value>Velocity</value>
+  </data>
+  <data name="Viscocity" xml:space="preserve">
+    <value>Viscocity</value>
+  </data>
+  <data name="Volume" xml:space="preserve">
+    <value>Volume</value>
   </data>
 </root>

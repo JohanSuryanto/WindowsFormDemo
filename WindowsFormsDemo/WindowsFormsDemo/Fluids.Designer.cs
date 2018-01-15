@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.labelFluids = new System.Windows.Forms.Label();
+            this.labelSelectFluidType = new System.Windows.Forms.Label();
+            this.labelSearch = new System.Windows.Forms.Label();
             this.comboBoxFluidType = new System.Windows.Forms.ComboBox();
             this.textBoxSearch = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -45,33 +45,33 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // labelFluids
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(13, 171);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 16);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Fluids";
+            this.labelFluids.AutoSize = true;
+            this.labelFluids.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFluids.Location = new System.Drawing.Point(13, 171);
+            this.labelFluids.Name = "labelFluids";
+            this.labelFluids.Size = new System.Drawing.Size(44, 16);
+            this.labelFluids.TabIndex = 0;
+            this.labelFluids.Text = "Fluids";
             // 
-            // label2
+            // labelSelectFluidType
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(15, 228);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Select Fluid Type";
+            this.labelSelectFluidType.AutoSize = true;
+            this.labelSelectFluidType.Location = new System.Drawing.Point(15, 228);
+            this.labelSelectFluidType.Name = "labelSelectFluidType";
+            this.labelSelectFluidType.Size = new System.Drawing.Size(89, 13);
+            this.labelSelectFluidType.TabIndex = 1;
+            this.labelSelectFluidType.Text = "Select Fluid Type";
             // 
-            // label3
+            // labelSearch
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(15, 258);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(41, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Search";
+            this.labelSearch.AutoSize = true;
+            this.labelSearch.Location = new System.Drawing.Point(15, 258);
+            this.labelSearch.Name = "labelSearch";
+            this.labelSearch.Size = new System.Drawing.Size(41, 13);
+            this.labelSearch.TabIndex = 2;
+            this.labelSearch.Text = "Search";
             // 
             // comboBoxFluidType
             // 
@@ -153,11 +153,12 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.textBoxSearch);
             this.Controls.Add(this.comboBoxFluidType);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.labelSearch);
+            this.Controls.Add(this.labelSelectFluidType);
+            this.Controls.Add(this.labelFluids);
             this.Name = "Fluids";
             this.Text = "Fluids";
+            this.Load += new System.EventHandler(this.Fluids_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -166,9 +167,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label labelFluids;
+        private System.Windows.Forms.Label labelSelectFluidType;
+        private System.Windows.Forms.Label labelSearch;
         private System.Windows.Forms.ComboBox comboBoxFluidType;
         private System.Windows.Forms.TextBox textBoxSearch;
         private System.Windows.Forms.DataGridView dataGridView1;
