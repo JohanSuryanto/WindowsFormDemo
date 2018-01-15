@@ -13,8 +13,8 @@ namespace WindowsFormsDemo
 {
     public partial class UserSettings : Form
     {
-        private string[] textUiLang = { "English" , "Indonesia"};
-        private string[] valueUiLang = { "en-US" , "id-ID" }; 
+        private string[] textUiLang = { "English" , "Indonesia", "Chinese" };
+        private string[] valueUiLang = { "en-US" , "id-ID" , "ii-CN" }; 
         private LanguageChange languageChange = new LanguageChange();
 
         public UserSettings()
@@ -50,29 +50,12 @@ namespace WindowsFormsDemo
                     obj = languageChange.start("en-US");
                     break;
             }
+            this.ChangeLanguageNow();
         }
 
-        private void UserSettings_Load(object sender, EventArgs e)
+        private void ChangeLanguageNow()
         {
-            string findString = "";
             var lang = Environment.GetEnvironmentVariable("lang");
-            for (int i = 0; i < textUiLang.Count(); i++)
-            {
-                ComboboxItem item = new ComboboxItem();
-                item.Text = textUiLang[i];
-                item.Value = valueUiLang[i];
-                comboBoxUiLanguage.Items.Add(item);
-                if(lang == valueUiLang[i])
-                {
-                    findString = textUiLang[i];
-                }
-            }
-
-
-            int index = comboBoxUiLanguage.FindString(findString);
-            comboBoxUiLanguage.SelectedIndex = index;
-
-
             /* replace label text to language setting*/
             var obj = languageChange.start(lang);
             label1.Text = obj.resManage.GetString("UserPreferences", obj.cultureInfo);
@@ -105,6 +88,29 @@ namespace WindowsFormsDemo
             label23.Text = obj.resManage.GetString("SpringRate", obj.cultureInfo);
             label22.Text = obj.resManage.GetString("Stress", obj.cultureInfo);
             label21.Text = obj.resManage.GetString("SoundPower", obj.cultureInfo);
+        }
+
+        private void UserSettings_Load(object sender, EventArgs e)
+        {
+            string findString = "";
+            var lang = Environment.GetEnvironmentVariable("lang");
+            for (int i = 0; i < textUiLang.Count(); i++)
+            {
+                ComboboxItem item = new ComboboxItem();
+                item.Text = textUiLang[i];
+                item.Value = valueUiLang[i];
+                comboBoxUiLanguage.Items.Add(item);
+                if(lang == valueUiLang[i])
+                {
+                    findString = textUiLang[i];
+                }
+            }
+
+
+            int index = comboBoxUiLanguage.FindString(findString);
+            comboBoxUiLanguage.SelectedIndex = index;
+
+            this.ChangeLanguageNow();
         }
 
 
