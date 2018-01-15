@@ -18,5 +18,10 @@ namespace WindowsFormsDemo
         {
             InitializeComponent();
         }
+
+        private void Sync_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

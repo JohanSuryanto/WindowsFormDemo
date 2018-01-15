@@ -22,16 +22,7 @@ namespace WindowsFormsDemo
         {
 
         }
-        public void setCultureInfo (string culture)
-        {
-            CultureInfo myCultureInfo = new CultureInfo(culture);
-            Thread.CurrentThread.CurrentCulture = myCultureInfo;
-            Thread.CurrentThread.CurrentUICulture = myCultureInfo;
-            InitializeComponent();
-
-            label37.Text = CommonResource.Description;
-            label55.Text = "INFO" + myCultureInfo.EnglishName;
-        }
+        
 
         private void button1_Click(object sender, EventArgs e)
         {
