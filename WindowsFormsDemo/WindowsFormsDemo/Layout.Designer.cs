@@ -61,27 +61,27 @@
             this.tabSupport = new System.Windows.Forms.TabPage();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.buttonUserSetting = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
+            this.labelUserSettings = new System.Windows.Forms.Label();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.labelCalculator = new System.Windows.Forms.Label();
             this.buttonCaculator = new System.Windows.Forms.Button();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.label8 = new System.Windows.Forms.Label();
+            this.labelLibraries = new System.Windows.Forms.Label();
             this.buttonFlanges = new System.Windows.Forms.Button();
             this.buttonMaterials = new System.Windows.Forms.Button();
             this.buttonFluids = new System.Windows.Forms.Button();
             this.buttonPipes = new System.Windows.Forms.Button();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
-            this.label9 = new System.Windows.Forms.Label();
+            this.labelLiterature = new System.Windows.Forms.Label();
             this.buttonCompany = new System.Windows.Forms.Button();
             this.buttonProducts = new System.Windows.Forms.Button();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
-            this.label10 = new System.Windows.Forms.Label();
+            this.labelApplication = new System.Windows.Forms.Label();
             this.buttonSync = new System.Windows.Forms.Button();
             this.buttonUsermanual = new System.Windows.Forms.Button();
             this.buttonUpdate = new System.Windows.Forms.Button();
             this.groupBox11 = new System.Windows.Forms.GroupBox();
-            this.label11 = new System.Windows.Forms.Label();
+            this.labelMaintenance = new System.Windows.Forms.Label();
             this.buttonMaintenance = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.tabMain.SuspendLayout();
@@ -480,7 +480,7 @@
             // groupBox6
             // 
             this.groupBox6.Controls.Add(this.buttonUserSetting);
-            this.groupBox6.Controls.Add(this.label6);
+            this.groupBox6.Controls.Add(this.labelUserSettings);
             this.groupBox6.Location = new System.Drawing.Point(0, -8);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Size = new System.Drawing.Size(70, 149);
@@ -503,18 +503,18 @@
             this.buttonUserSetting.UseVisualStyleBackColor = false;
             this.buttonUserSetting.Click += new System.EventHandler(this.buttonUserSetting_Click);
             // 
-            // label6
+            // labelUserSettings
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(0, 124);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(70, 13);
-            this.label6.TabIndex = 3;
-            this.label6.Text = "User Settings";
+            this.labelUserSettings.AutoSize = true;
+            this.labelUserSettings.Location = new System.Drawing.Point(0, 124);
+            this.labelUserSettings.Name = "labelUserSettings";
+            this.labelUserSettings.Size = new System.Drawing.Size(70, 13);
+            this.labelUserSettings.TabIndex = 3;
+            this.labelUserSettings.Text = "User Settings";
             // 
             // groupBox7
             // 
-            this.groupBox7.Controls.Add(this.label7);
+            this.groupBox7.Controls.Add(this.labelCalculator);
             this.groupBox7.Controls.Add(this.buttonCaculator);
             this.groupBox7.Location = new System.Drawing.Point(47, -17);
             this.groupBox7.Name = "groupBox7";
@@ -522,14 +522,14 @@
             this.groupBox7.TabIndex = 3;
             this.groupBox7.TabStop = false;
             // 
-            // label7
+            // labelCalculator
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(36, 133);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(59, 13);
-            this.label7.TabIndex = 5;
-            this.label7.Text = "Calculators";
+            this.labelCalculator.AutoSize = true;
+            this.labelCalculator.Location = new System.Drawing.Point(36, 133);
+            this.labelCalculator.Name = "labelCalculator";
+            this.labelCalculator.Size = new System.Drawing.Size(59, 13);
+            this.labelCalculator.TabIndex = 5;
+            this.labelCalculator.Text = "Calculators";
             // 
             // buttonCaculator
             // 
@@ -549,7 +549,7 @@
             // 
             // groupBox8
             // 
-            this.groupBox8.Controls.Add(this.label8);
+            this.groupBox8.Controls.Add(this.labelLibraries);
             this.groupBox8.Controls.Add(this.buttonFlanges);
             this.groupBox8.Controls.Add(this.buttonMaterials);
             this.groupBox8.Controls.Add(this.buttonFluids);
@@ -560,14 +560,14 @@
             this.groupBox8.TabIndex = 10;
             this.groupBox8.TabStop = false;
             // 
-            // label8
+            // labelLibraries
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(127, 121);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(46, 13);
-            this.label8.TabIndex = 7;
-            this.label8.Text = "Libraries";
+            this.labelLibraries.AutoSize = true;
+            this.labelLibraries.Location = new System.Drawing.Point(127, 121);
+            this.labelLibraries.Name = "labelLibraries";
+            this.labelLibraries.Size = new System.Drawing.Size(46, 13);
+            this.labelLibraries.TabIndex = 7;
+            this.labelLibraries.Text = "Libraries";
             // 
             // buttonFlanges
             // 
@@ -635,7 +635,7 @@
             // 
             // groupBox9
             // 
-            this.groupBox9.Controls.Add(this.label9);
+            this.groupBox9.Controls.Add(this.labelLiterature);
             this.groupBox9.Controls.Add(this.buttonCompany);
             this.groupBox9.Controls.Add(this.buttonProducts);
             this.groupBox9.Location = new System.Drawing.Point(430, -8);
@@ -644,14 +644,14 @@
             this.groupBox9.TabIndex = 11;
             this.groupBox9.TabStop = false;
             // 
-            // label9
+            // labelLiterature
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(64, 121);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(51, 13);
-            this.label9.TabIndex = 10;
-            this.label9.Text = "Literature";
+            this.labelLiterature.AutoSize = true;
+            this.labelLiterature.Location = new System.Drawing.Point(64, 121);
+            this.labelLiterature.Name = "labelLiterature";
+            this.labelLiterature.Size = new System.Drawing.Size(51, 13);
+            this.labelLiterature.TabIndex = 10;
+            this.labelLiterature.Text = "Literature";
             // 
             // buttonCompany
             // 
@@ -687,7 +687,7 @@
             // 
             // groupBox10
             // 
-            this.groupBox10.Controls.Add(this.label10);
+            this.groupBox10.Controls.Add(this.labelApplication);
             this.groupBox10.Controls.Add(this.buttonSync);
             this.groupBox10.Controls.Add(this.buttonUsermanual);
             this.groupBox10.Controls.Add(this.buttonUpdate);
@@ -698,14 +698,14 @@
             this.groupBox10.TabStop = false;
             this.groupBox10.Enter += new System.EventHandler(this.groupBox10_Enter);
             // 
-            // label10
+            // labelApplication
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(104, 121);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(59, 13);
-            this.label10.TabIndex = 8;
-            this.label10.Text = "Application";
+            this.labelApplication.AutoSize = true;
+            this.labelApplication.Location = new System.Drawing.Point(104, 121);
+            this.labelApplication.Name = "labelApplication";
+            this.labelApplication.Size = new System.Drawing.Size(59, 13);
+            this.labelApplication.TabIndex = 8;
+            this.labelApplication.Text = "Application";
             // 
             // buttonSync
             // 
@@ -756,7 +756,7 @@
             // 
             // groupBox11
             // 
-            this.groupBox11.Controls.Add(this.label11);
+            this.groupBox11.Controls.Add(this.labelMaintenance);
             this.groupBox11.Controls.Add(this.buttonMaintenance);
             this.groupBox11.Location = new System.Drawing.Point(804, -8);
             this.groupBox11.Name = "groupBox11";
@@ -764,14 +764,14 @@
             this.groupBox11.TabIndex = 13;
             this.groupBox11.TabStop = false;
             // 
-            // label11
+            // labelMaintenance
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(26, 121);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(69, 13);
-            this.label11.TabIndex = 8;
-            this.label11.Text = "Maintenance";
+            this.labelMaintenance.AutoSize = true;
+            this.labelMaintenance.Location = new System.Drawing.Point(26, 121);
+            this.labelMaintenance.Name = "labelMaintenance";
+            this.labelMaintenance.Size = new System.Drawing.Size(69, 13);
+            this.labelMaintenance.TabIndex = 8;
+            this.labelMaintenance.Text = "Maintenance";
             // 
             // buttonMaintenance
             // 
@@ -870,13 +870,13 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label labelLibraries;
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.Button buttonUserSetting;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label labelUserSettings;
         private System.Windows.Forms.Button buttonFluids;
         private System.Windows.Forms.GroupBox groupBox7;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label labelCalculator;
         private System.Windows.Forms.Button buttonCaculator;
         private System.Windows.Forms.GroupBox groupBox8;
         private System.Windows.Forms.Button buttonFlanges;
@@ -891,9 +891,9 @@
         private System.Windows.Forms.Button buttonUsermanual;
         private System.Windows.Forms.GroupBox groupBox11;
         private System.Windows.Forms.Button buttonMaintenance;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label labelLiterature;
+        private System.Windows.Forms.Label labelApplication;
+        private System.Windows.Forms.Label labelMaintenance;
         private System.Windows.Forms.Panel panel1;
     }
 }

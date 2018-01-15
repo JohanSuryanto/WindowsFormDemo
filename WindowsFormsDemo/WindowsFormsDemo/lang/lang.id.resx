@@ -144,11 +144,17 @@
   <data name="Competiton" xml:space="preserve">
     <value>Kompetisi</value>
   </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Salinan</value>
+  </data>
   <data name="Currency" xml:space="preserve">
     <value>Mata Uang</value>
   </data>
   <data name="DateFormat" xml:space="preserve">
     <value>Format Tanggal</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Hapus</value>
   </data>
   <data name="DesignPressure" xml:space="preserve">
     <value>Tekanan Desain</value>
@@ -171,6 +177,9 @@
   <data name="Entholpy" xml:space="preserve">
     <value>Entholpy</value>
   </data>
+  <data name="Export" xml:space="preserve">
+    <value>Ekspor</value>
+  </data>
   <data name="Favorites" xml:space="preserve">
     <value>Favorit</value>
   </data>
@@ -192,6 +201,12 @@
   <data name="General" xml:space="preserve">
     <value>Umum</value>
   </data>
+  <data name="Home" xml:space="preserve">
+    <value>Beranda</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>impor</value>
+  </data>
   <data name="InstallBase" xml:space="preserve">
     <value>Dasar Instalasi</value>
   </data>
@@ -206,6 +221,9 @@
   </data>
   <data name="Libraries" xml:space="preserve">
     <value>Perpustakaan</value>
+  </data>
+  <data name="Link" xml:space="preserve">
+    <value>Link</value>
   </data>
   <data name="LiquidVolumeFlow" xml:space="preserve">
     <value>Aliran Volume Cair</value>
@@ -222,11 +240,23 @@
   <data name="Materials" xml:space="preserve">
     <value>Bahan</value>
   </data>
+  <data name="Navigation" xml:space="preserve">
+    <value>Navigasi</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>Baru</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Buka</value>
+  </data>
   <data name="OutputLanguage" xml:space="preserve">
     <value>Bahasa Keluaran</value>
   </data>
   <data name="Pipes" xml:space="preserve">
     <value>Pipa</value>
+  </data>
+  <data name="Preferences" xml:space="preserve">
+    <value>Preferensi</value>
   </data>
   <data name="Presentations" xml:space="preserve">
     <value>Presentasi</value>
@@ -237,8 +267,29 @@
   <data name="ProductType" xml:space="preserve">
     <value>Tipe Produk</value>
   </data>
+  <data name="Project" xml:space="preserve">
+    <value>Proyek</value>
+  </data>
+  <data name="ProjectImportExport" xml:space="preserve">
+    <value>Proyek Impor / Ekspor</value>
+  </data>
   <data name="ProjectPreferences" xml:space="preserve">
     <value>Preferensi Proyek</value>
+  </data>
+  <data name="ProjectPreferences1" xml:space="preserve">
+    <value>Preferensi Proyek</value>
+  </data>
+  <data name="Proposal" xml:space="preserve">
+    <value>Usul</value>
+  </data>
+  <data name="Restore" xml:space="preserve">
+    <value>Mengembalikan</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Menyimpan</value>
+  </data>
+  <data name="SaveAs" xml:space="preserve">
+    <value>Simpan As</value>
   </data>
   <data name="Search" xml:space="preserve">
     <value>Cari</value>
@@ -290,6 +341,9 @@
   </data>
   <data name="UnitGroup" xml:space="preserve">
     <value>Grup Unit</value>
+  </data>
+  <data name="Unlink" xml:space="preserve">
+    <value>Unlink</value>
   </data>
   <data name="Update" xml:space="preserve">
     <value>Memperbaharui</value>

@@ -7,11 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsDemo.lang;
 
 namespace WindowsFormsDemo
 {
     public partial class Layout : Form
     {
+        LanguageChange languageChange = new LanguageChange();
+
         public Layout()
         {
             InitializeComponent();
@@ -48,11 +51,37 @@ namespace WindowsFormsDemo
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            string lang = Environment.GetEnvironmentVariable("lang");
-            if (lang == null)
+
+            var chk = Environment.GetEnvironmentVariable("lang");
+            if (chk == null)
             {
                 Environment.SetEnvironmentVariable("lang", "en-US");
             }
+            string lang = Environment.GetEnvironmentVariable("lang");
+
+            var obj = languageChange.start(lang);
+
+            /*Project Tab Button Language Change*/
+            buttonUserSetting.Text = obj.resManage.GetString("UserSettings", obj.cultureInfo);
+            buttonNew.Text = obj.resManage.GetString("New", obj.cultureInfo);
+            buttonNew2.Text = obj.resManage.GetString("New", obj.cultureInfo);
+            buttonCopy.Text = obj.resManage.GetString("Copy", obj.cultureInfo);
+
+            buttonLink.Text = obj.resManage.GetString("Link", obj.cultureInfo);
+            buttonSave.Text = obj.resManage.GetString("Save", obj.cultureInfo);
+            buttonUnlink.Text = obj.resManage.GetString("Unlink", obj.cultureInfo);
+            buttonSaveas.Text = obj.resManage.GetString("SaveAs", obj.cultureInfo);
+            buttonDelete.Text = obj.resManage.GetString("Delete", obj.cultureInfo);
+            buttonDelete2.Text = obj.resManage.GetString("Delete", obj.cultureInfo);
+            buttonRestore.Text= obj.resManage.GetString("Restore", obj.cultureInfo);
+            buttonImport.Text = obj.resManage.GetString("Import", obj.cultureInfo);
+            buttonExport.Text = obj.resManage.GetString("Export", obj.cultureInfo);
+            buttonPreferences.Text = obj.resManage.GetString("Preferences", obj.cultureInfo);
+            buttonOpen.Text = obj.resManage.GetString("Open", obj.cultureInfo);
+
+            
+
+
         }
 
         private void groupBox3_Enter(object sender, EventArgs e)

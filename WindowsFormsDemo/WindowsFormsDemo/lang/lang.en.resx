@@ -144,11 +144,17 @@
   <data name="Competiton" xml:space="preserve">
     <value>Competiton</value>
   </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
   <data name="Currency" xml:space="preserve">
     <value>Currency</value>
   </data>
   <data name="DateFormat" xml:space="preserve">
     <value>Date Format</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
   </data>
   <data name="DesignPressure" xml:space="preserve">
     <value>Design Pressure</value>
@@ -171,6 +177,9 @@
   <data name="Entholpy" xml:space="preserve">
     <value>Entholpy</value>
   </data>
+  <data name="Export" xml:space="preserve">
+    <value>Export</value>
+  </data>
   <data name="Favorites" xml:space="preserve">
     <value>Favorites</value>
   </data>
@@ -192,6 +201,12 @@
   <data name="General" xml:space="preserve">
     <value>General</value>
   </data>
+  <data name="Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>Import</value>
+  </data>
   <data name="InstallBase" xml:space="preserve">
     <value>Install Base</value>
   </data>
@@ -206,6 +221,9 @@
   </data>
   <data name="Libraries" xml:space="preserve">
     <value>Libraries</value>
+  </data>
+  <data name="Link" xml:space="preserve">
+    <value>Link</value>
   </data>
   <data name="LiquidVolumeFlow" xml:space="preserve">
     <value>Liquid Volume Flow</value>
@@ -222,11 +240,23 @@
   <data name="Materials" xml:space="preserve">
     <value>Materials</value>
   </data>
+  <data name="Navigation" xml:space="preserve">
+    <value>Navigation</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Open</value>
+  </data>
   <data name="OutputLanguage" xml:space="preserve">
     <value>Output Language</value>
   </data>
   <data name="Pipes" xml:space="preserve">
     <value>Pipes</value>
+  </data>
+  <data name="Preferences" xml:space="preserve">
+    <value>Preferences</value>
   </data>
   <data name="Presentations" xml:space="preserve">
     <value>Presentations</value>
@@ -237,8 +267,29 @@
   <data name="ProductType" xml:space="preserve">
     <value>Product Type</value>
   </data>
+  <data name="Project" xml:space="preserve">
+    <value>Project </value>
+  </data>
+  <data name="ProjectImportExport" xml:space="preserve">
+    <value>Project Import/Export</value>
+  </data>
   <data name="ProjectPreferences" xml:space="preserve">
     <value>Project Preferences</value>
+  </data>
+  <data name="ProjectPreferences1" xml:space="preserve">
+    <value>Project Preferences</value>
+  </data>
+  <data name="Proposal" xml:space="preserve">
+    <value>Proposal</value>
+  </data>
+  <data name="Restore" xml:space="preserve">
+    <value>Restore</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="SaveAs" xml:space="preserve">
+    <value>Save As</value>
   </data>
   <data name="Search" xml:space="preserve">
     <value>Search</value>
@@ -290,6 +341,9 @@
   </data>
   <data name="UnitGroup" xml:space="preserve">
     <value>Unit Group</value>
+  </data>
+  <data name="Unlink" xml:space="preserve">
+    <value>Unlink</value>
   </data>
   <data name="Update" xml:space="preserve">
     <value>Update</value>

@@ -144,11 +144,17 @@
   <data name="Competiton" xml:space="preserve">
     <value>竞争</value>
   </data>
+  <data name="Copy" xml:space="preserve">
+    <value>复制</value>
+  </data>
   <data name="Currency" xml:space="preserve">
     <value>货币</value>
   </data>
   <data name="DateFormat" xml:space="preserve">
     <value>日期格式</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>删除</value>
   </data>
   <data name="DesignPressure" xml:space="preserve">
     <value>设计压力</value>
@@ -171,6 +177,9 @@
   <data name="Entholpy" xml:space="preserve">
     <value>焓</value>
   </data>
+  <data name="Export" xml:space="preserve">
+    <value>出口</value>
+  </data>
   <data name="Favorites" xml:space="preserve">
     <value>最爱</value>
   </data>
@@ -192,6 +201,12 @@
   <data name="General" xml:space="preserve">
     <value>一般</value>
   </data>
+  <data name="Home" xml:space="preserve">
+    <value>家</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>进口</value>
+  </data>
   <data name="InstallBase" xml:space="preserve">
     <value>安装基地</value>
   </data>
@@ -206,6 +221,9 @@
   </data>
   <data name="Libraries" xml:space="preserve">
     <value>图书馆</value>
+  </data>
+  <data name="Link" xml:space="preserve">
+    <value>链接</value>
   </data>
   <data name="LiquidVolumeFlow" xml:space="preserve">
     <value>液体体积流量</value>
@@ -222,11 +240,23 @@
   <data name="Materials" xml:space="preserve">
     <value>物料</value>
   </data>
+  <data name="Navigation" xml:space="preserve">
+    <value>导航</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>新</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>打开</value>
+  </data>
   <data name="OutputLanguage" xml:space="preserve">
     <value>输出语言</value>
   </data>
   <data name="Pipes" xml:space="preserve">
     <value>管道</value>
+  </data>
+  <data name="Preferences" xml:space="preserve">
+    <value>优先</value>
   </data>
   <data name="Presentations" xml:space="preserve">
     <value>演讲</value>
@@ -237,8 +267,29 @@
   <data name="ProductType" xml:space="preserve">
     <value>产品类别</value>
   </data>
+  <data name="Project" xml:space="preserve">
+    <value>项目</value>
+  </data>
+  <data name="ProjectImportExport" xml:space="preserve">
+    <value>项目Impor / Ekspor</value>
+  </data>
   <data name="ProjectPreferences" xml:space="preserve">
     <value>项目首选项</value>
+  </data>
+  <data name="ProjectPreferences1" xml:space="preserve">
+    <value>项目首选项</value>
+  </data>
+  <data name="Proposal" xml:space="preserve">
+    <value>提案</value>
+  </data>
+  <data name="Restore" xml:space="preserve">
+    <value>恢复</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="SaveAs" xml:space="preserve">
+    <value>另存为</value>
   </data>
   <data name="Search" xml:space="preserve">
     <value>搜索</value>
@@ -290,6 +341,9 @@
   </data>
   <data name="UnitGroup" xml:space="preserve">
     <value>单位组</value>
+  </data>
+  <data name="Unlink" xml:space="preserve">
+    <value>取消链接</value>
   </data>
   <data name="Update" xml:space="preserve">
     <value>更新</value>
