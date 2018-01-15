@@ -23,6 +23,7 @@ namespace WindowsFormsDemo
         {
             string lang = Environment.GetEnvironmentVariable("lang");
             var obj = languageChange.start(lang);
+            labelCode.Text = obj.resManage.GetString("Code", obj.cultureInfo);
             labelProjectPreferences.Text = obj.resManage.GetString("ProjectPreferences", obj.cultureInfo);
             labelFlangeType.Text = obj.resManage.GetString("FlangeType", obj.cultureInfo);
             labelFlangeType2.Text = obj.resManage.GetString("FlangeType", obj.cultureInfo);
