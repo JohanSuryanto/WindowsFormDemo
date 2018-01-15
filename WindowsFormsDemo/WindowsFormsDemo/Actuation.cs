@@ -26,8 +26,7 @@ namespace WindowsFormsDemo
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ChangeLanguage newPopUP = new ChangeLanguage();
-            newPopUP.Show();
+           
         }
     }
 }
