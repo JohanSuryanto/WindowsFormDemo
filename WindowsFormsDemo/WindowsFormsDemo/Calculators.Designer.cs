@@ -37,7 +37,7 @@
             this.buttonValveDesing = new System.Windows.Forms.Button();
             this.labelSearch = new System.Windows.Forms.Label();
             this.textBoxSearch = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.labelCalculator = new System.Windows.Forms.Label();
             this.richTextBoxFavorites = new System.Windows.Forms.RichTextBox();
             this.labelFavorite = new System.Windows.Forms.Label();
             this.labelSeatLeak = new System.Windows.Forms.Label();
@@ -141,15 +141,15 @@
             this.textBoxSearch.Size = new System.Drawing.Size(136, 20);
             this.textBoxSearch.TabIndex = 8;
             // 
-            // label3
+            // labelCalculator
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(9, 373);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(93, 24);
-            this.label3.TabIndex = 9;
-            this.label3.Text = "Calculator";
+            this.labelCalculator.AutoSize = true;
+            this.labelCalculator.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelCalculator.Location = new System.Drawing.Point(9, 373);
+            this.labelCalculator.Name = "labelCalculator";
+            this.labelCalculator.Size = new System.Drawing.Size(93, 24);
+            this.labelCalculator.TabIndex = 9;
+            this.labelCalculator.Text = "Calculator";
             // 
             // richTextBoxFavorites
             // 
@@ -186,7 +186,7 @@
             this.Controls.Add(this.labelSeatLeak);
             this.Controls.Add(this.labelFavorite);
             this.Controls.Add(this.richTextBoxFavorites);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.labelCalculator);
             this.Controls.Add(this.textBoxSearch);
             this.Controls.Add(this.labelSearch);
             this.Controls.Add(this.buttonGeneral);
@@ -216,7 +216,7 @@
         private System.Windows.Forms.Button buttonValveDesing;
         private System.Windows.Forms.Label labelSearch;
         private System.Windows.Forms.TextBox textBoxSearch;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label labelCalculator;
         private System.Windows.Forms.RichTextBox richTextBoxFavorites;
         private System.Windows.Forms.Label labelFavorite;
         private System.Windows.Forms.Label labelSeatLeak;

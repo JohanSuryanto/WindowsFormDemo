@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.labelProjectPreferences = new System.Windows.Forms.Label();
+            this.labelCode = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.labelFlangeType = new System.Windows.Forms.Label();
+            this.labelFlangeType2 = new System.Windows.Forms.Label();
+            this.labelFlangeRating = new System.Windows.Forms.Label();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
@@ -52,24 +52,24 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // labelProjectPreferences
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 170);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(126, 16);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Project Preferences";
+            this.labelProjectPreferences.AutoSize = true;
+            this.labelProjectPreferences.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelProjectPreferences.Location = new System.Drawing.Point(12, 170);
+            this.labelProjectPreferences.Name = "labelProjectPreferences";
+            this.labelProjectPreferences.Size = new System.Drawing.Size(126, 16);
+            this.labelProjectPreferences.TabIndex = 0;
+            this.labelProjectPreferences.Text = "Project Preferences";
             // 
-            // label2
+            // labelCode
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 215);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(32, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Code";
+            this.labelCode.AutoSize = true;
+            this.labelCode.Location = new System.Drawing.Point(12, 215);
+            this.labelCode.Name = "labelCode";
+            this.labelCode.Size = new System.Drawing.Size(32, 13);
+            this.labelCode.TabIndex = 1;
+            this.labelCode.Text = "Code";
             // 
             // comboBox1
             // 
@@ -79,32 +79,32 @@
             this.comboBox1.Size = new System.Drawing.Size(148, 21);
             this.comboBox1.TabIndex = 2;
             // 
-            // label3
+            // labelFlangeType
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 250);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(66, 13);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Flange Type";
+            this.labelFlangeType.AutoSize = true;
+            this.labelFlangeType.Location = new System.Drawing.Point(12, 250);
+            this.labelFlangeType.Name = "labelFlangeType";
+            this.labelFlangeType.Size = new System.Drawing.Size(66, 13);
+            this.labelFlangeType.TabIndex = 3;
+            this.labelFlangeType.Text = "Flange Type";
             // 
-            // label4
+            // labelFlangeType2
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 284);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(66, 13);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Flange Type";
+            this.labelFlangeType2.AutoSize = true;
+            this.labelFlangeType2.Location = new System.Drawing.Point(12, 284);
+            this.labelFlangeType2.Name = "labelFlangeType2";
+            this.labelFlangeType2.Size = new System.Drawing.Size(66, 13);
+            this.labelFlangeType2.TabIndex = 4;
+            this.labelFlangeType2.Text = "Flange Type";
             // 
-            // label5
+            // labelFlangeRating
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 322);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(73, 13);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "Flange Rating";
+            this.labelFlangeRating.AutoSize = true;
+            this.labelFlangeRating.Location = new System.Drawing.Point(12, 322);
+            this.labelFlangeRating.Name = "labelFlangeRating";
+            this.labelFlangeRating.Size = new System.Drawing.Size(73, 13);
+            this.labelFlangeRating.TabIndex = 5;
+            this.labelFlangeRating.Text = "Flange Rating";
             // 
             // comboBox2
             // 
@@ -212,12 +212,12 @@
             this.Controls.Add(this.comboBox4);
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.labelFlangeRating);
+            this.Controls.Add(this.labelFlangeType2);
+            this.Controls.Add(this.labelFlangeType);
             this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.labelCode);
+            this.Controls.Add(this.labelProjectPreferences);
             this.Name = "Flanges";
             this.Text = "Flanges";
             this.Load += new System.EventHandler(this.Flanges_Load);
@@ -230,12 +230,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label labelProjectPreferences;
+        private System.Windows.Forms.Label labelCode;
         private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label labelFlangeType;
+        private System.Windows.Forms.Label labelFlangeType2;
+        private System.Windows.Forms.Label labelFlangeRating;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.ComboBox comboBox4;

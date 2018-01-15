@@ -32,6 +32,7 @@ namespace WindowsFormsDemo
             labelFavorite.Text = obj.resManage.GetString("Favorites", obj.cultureInfo);
             labelSearch.Text = obj.resManage.GetString("Search", obj.cultureInfo);
             labelSeatLeak.Text = obj.resManage.GetString("SeatLeakage", obj.cultureInfo);
+            labelCalculator.Text = obj.resManage.GetString("Calculator", obj.cultureInfo);
         }
     }
 }
