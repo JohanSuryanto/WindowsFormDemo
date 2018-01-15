@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ActualValueDiameter" xml:space="preserve">
+    <value>Diameter Nilai Aktual</value>
+  </data>
   <data name="Actuator" xml:space="preserve">
     <value>Aktuator</value>
   </data>
@@ -137,6 +140,9 @@
   </data>
   <data name="Code" xml:space="preserve">
     <value>Kode</value>
+  </data>
+  <data name="CoeffOfFriction" xml:space="preserve">
+    <value>Koefisien Gesekan</value>
   </data>
   <data name="CompanyLink" xml:space="preserve">
     <value>Link Perusahaan</value>
@@ -195,6 +201,9 @@
   <data name="Force" xml:space="preserve">
     <value>Kekuatan</value>
   </data>
+  <data name="ForceDefinition" xml:space="preserve">
+    <value>Definisi Angkatan</value>
+  </data>
   <data name="GasVolumeFlow" xml:space="preserve">
     <value>Arus Volume Gas</value>
   </data>
@@ -204,8 +213,29 @@
   <data name="Home" xml:space="preserve">
     <value>Beranda</value>
   </data>
+  <data name="HydraulicForceRunning" xml:space="preserve">
+    <value>Tenaga Hidrolik yang Mengalir</value>
+  </data>
+  <data name="HydraulicForceSeated" xml:space="preserve">
+    <value>Tenaga Hidrolik yang dipakai</value>
+  </data>
   <data name="Import" xml:space="preserve">
     <value>impor</value>
+  </data>
+  <data name="InletDensity" xml:space="preserve">
+    <value>Massa Jenis Yang Masuk</value>
+  </data>
+  <data name="InletEnthalpy" xml:space="preserve">
+    <value>Entalpi Yang Masuk</value>
+  </data>
+  <data name="InletFlowRate" xml:space="preserve">
+    <value>Nilai Aliran Yang Masuk</value>
+  </data>
+  <data name="InletPressure" xml:space="preserve">
+    <value>Tekanan Yang Masuk</value>
+  </data>
+  <data name="InletTemperature" xml:space="preserve">
+    <value>Suhu Yang Masuk</value>
   </data>
   <data name="InstallBase" xml:space="preserve">
     <value>Dasar Instalasi</value>
@@ -215,6 +245,9 @@
   </data>
   <data name="LeadTimes" xml:space="preserve">
     <value>Waktu Memimpin</value>
+  </data>
+  <data name="LeakageClass" xml:space="preserve">
+    <value>Kebocoran Kelas</value>
   </data>
   <data name="Length" xml:space="preserve">
     <value>Panjanga</value>
@@ -240,6 +273,12 @@
   <data name="Materials" xml:space="preserve">
     <value>Bahan</value>
   </data>
+  <data name="MeanSeatContactDiameter" xml:space="preserve">
+    <value>Rata-Rata Diameter Kontak Kursi</value>
+  </data>
+  <data name="MeanSeatWidth" xml:space="preserve">
+    <value>Rata-Rata Lebar Kursi</value>
+  </data>
   <data name="Navigation" xml:space="preserve">
     <value>Navigasi</value>
   </data>
@@ -252,14 +291,38 @@
   <data name="OutputLanguage" xml:space="preserve">
     <value>Bahasa Keluaran</value>
   </data>
+  <data name="PackingLenght" xml:space="preserve">
+    <value>Panjang Pembungkusan</value>
+  </data>
+  <data name="PackingMaterial" xml:space="preserve">
+    <value>Bahan Pembungkusan</value>
+  </data>
   <data name="Pipes" xml:space="preserve">
     <value>Pipa</value>
+  </data>
+  <data name="PlugDiameter" xml:space="preserve">
+    <value>Diameter Penyumbat</value>
+  </data>
+  <data name="PlugSealDiameter" xml:space="preserve">
+    <value>Diameter Segel Steker</value>
+  </data>
+  <data name="PlugWeight" xml:space="preserve">
+    <value>Berat Penyumbat</value>
   </data>
   <data name="Preferences" xml:space="preserve">
     <value>Preferensi</value>
   </data>
   <data name="Presentations" xml:space="preserve">
     <value>Presentasi</value>
+  </data>
+  <data name="PressureDifferential" xml:space="preserve">
+    <value>Tekanan Yang Berbeda</value>
+  </data>
+  <data name="PressureOverPlug" xml:space="preserve">
+    <value>Tekanan Penyumbat Sisa</value>
+  </data>
+  <data name="PressureUnderPlug" xml:space="preserve">
+    <value>Tekanan Dengan Penyumbat</value>
   </data>
   <data name="ProductLiterature" xml:space="preserve">
     <value>Bacaan Produk</value>
@@ -291,11 +354,17 @@
   <data name="SaveAs" xml:space="preserve">
     <value>Simpan As</value>
   </data>
+  <data name="SealLenght" xml:space="preserve">
+    <value>Panjang Segel</value>
+  </data>
   <data name="Search" xml:space="preserve">
     <value>Cari</value>
   </data>
   <data name="SeatLeakage" xml:space="preserve">
     <value>Kebocoran Kursi</value>
+  </data>
+  <data name="SelectedConditions" xml:space="preserve">
+    <value>Pilih Kondisi</value>
   </data>
   <data name="SelectFluidType" xml:space="preserve">
     <value>Pilih Jenis Cairan</value>
@@ -326,6 +395,12 @@
   </data>
   <data name="SpringRate" xml:space="preserve">
     <value>Tingkat musim semi</value>
+  </data>
+  <data name="StemDiameter" xml:space="preserve">
+    <value>Diameter Tandan</value>
+  </data>
+  <data name="StemOrientation" xml:space="preserve">
+    <value>Orientasi Tandan</value>
   </data>
   <data name="Stress" xml:space="preserve">
     <value>Stress</value>
@@ -362,6 +437,12 @@
   </data>
   <data name="ValveDesing" xml:space="preserve">
     <value>Desain Valve</value>
+  </data>
+  <data name="ValvePlugSize" xml:space="preserve">
+    <value>Ukuran Plug Valve</value>
+  </data>
+  <data name="ValvePlugType" xml:space="preserve">
+    <value>Jenis Katup Penyumbat</value>
   </data>
   <data name="Velocity" xml:space="preserve">
     <value>Kecepatan</value>

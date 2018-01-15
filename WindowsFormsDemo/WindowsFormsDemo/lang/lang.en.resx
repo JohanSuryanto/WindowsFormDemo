@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ActualValueDiameter" xml:space="preserve">
+    <value>Actual Value Diameter</value>
+  </data>
   <data name="Actuator" xml:space="preserve">
     <value>Actuator</value>
   </data>
@@ -137,6 +140,9 @@
   </data>
   <data name="Code" xml:space="preserve">
     <value>Code</value>
+  </data>
+  <data name="CoeffOfFriction" xml:space="preserve">
+    <value>Coeff. Of Friction</value>
   </data>
   <data name="CompanyLink" xml:space="preserve">
     <value>Company Link</value>
@@ -195,6 +201,9 @@
   <data name="Force" xml:space="preserve">
     <value>Force</value>
   </data>
+  <data name="ForceDefinition" xml:space="preserve">
+    <value>Force Definition</value>
+  </data>
   <data name="GasVolumeFlow" xml:space="preserve">
     <value>Gas Volume Flow</value>
   </data>
@@ -204,8 +213,29 @@
   <data name="Home" xml:space="preserve">
     <value>Home</value>
   </data>
+  <data name="HydraulicForceRunning" xml:space="preserve">
+    <value>Hydraulic Force, Running</value>
+  </data>
+  <data name="HydraulicForceSeated" xml:space="preserve">
+    <value>Hydraulic Force, Seated</value>
+  </data>
   <data name="Import" xml:space="preserve">
     <value>Import</value>
+  </data>
+  <data name="InletDensity" xml:space="preserve">
+    <value>Inlet Density</value>
+  </data>
+  <data name="InletEnthalpy" xml:space="preserve">
+    <value>Inlet Enthalpy</value>
+  </data>
+  <data name="InletFlowRate" xml:space="preserve">
+    <value>Inlet Flow Rate</value>
+  </data>
+  <data name="InletPressure" xml:space="preserve">
+    <value>Inlet Pressure</value>
+  </data>
+  <data name="InletTemperature" xml:space="preserve">
+    <value>Inlet Temperature</value>
   </data>
   <data name="InstallBase" xml:space="preserve">
     <value>Install Base</value>
@@ -215,6 +245,9 @@
   </data>
   <data name="LeadTimes" xml:space="preserve">
     <value>Lead Times</value>
+  </data>
+  <data name="LeakageClass" xml:space="preserve">
+    <value>Leakage Class</value>
   </data>
   <data name="Length" xml:space="preserve">
     <value>Length</value>
@@ -240,6 +273,12 @@
   <data name="Materials" xml:space="preserve">
     <value>Materials</value>
   </data>
+  <data name="MeanSeatContactDiameter" xml:space="preserve">
+    <value>Mean Seat Contact Diameter</value>
+  </data>
+  <data name="MeanSeatWidth" xml:space="preserve">
+    <value>Mean Seat Width</value>
+  </data>
   <data name="Navigation" xml:space="preserve">
     <value>Navigation</value>
   </data>
@@ -252,14 +291,38 @@
   <data name="OutputLanguage" xml:space="preserve">
     <value>Output Language</value>
   </data>
+  <data name="PackingLenght" xml:space="preserve">
+    <value>Packing Lenght</value>
+  </data>
+  <data name="PackingMaterial" xml:space="preserve">
+    <value>Packing Material</value>
+  </data>
   <data name="Pipes" xml:space="preserve">
     <value>Pipes</value>
+  </data>
+  <data name="PlugDiameter" xml:space="preserve">
+    <value>Plug Diameter</value>
+  </data>
+  <data name="PlugSealDiameter" xml:space="preserve">
+    <value>Plug Seal Diameter</value>
+  </data>
+  <data name="PlugWeight" xml:space="preserve">
+    <value>Plug Weight</value>
   </data>
   <data name="Preferences" xml:space="preserve">
     <value>Preferences</value>
   </data>
   <data name="Presentations" xml:space="preserve">
     <value>Presentations</value>
+  </data>
+  <data name="PressureDifferential" xml:space="preserve">
+    <value>Pressure Differential</value>
+  </data>
+  <data name="PressureOverPlug" xml:space="preserve">
+    <value>Pressure Over Plug</value>
+  </data>
+  <data name="PressureUnderPlug" xml:space="preserve">
+    <value>Pressure Under Plug</value>
   </data>
   <data name="ProductLiterature" xml:space="preserve">
     <value>Product Literature</value>
@@ -291,11 +354,17 @@
   <data name="SaveAs" xml:space="preserve">
     <value>Save As</value>
   </data>
+  <data name="SealLenght" xml:space="preserve">
+    <value>Seal Lenght</value>
+  </data>
   <data name="Search" xml:space="preserve">
     <value>Search</value>
   </data>
   <data name="SeatLeakage" xml:space="preserve">
     <value>Seat Leakage</value>
+  </data>
+  <data name="SelectedConditions" xml:space="preserve">
+    <value>Selected Conditions</value>
   </data>
   <data name="SelectFluidType" xml:space="preserve">
     <value>SelectFluidType</value>
@@ -327,8 +396,17 @@
   <data name="SpringRate" xml:space="preserve">
     <value>Spring Rate</value>
   </data>
+  <data name="StemDiameter" xml:space="preserve">
+    <value>Stem Diameter</value>
+  </data>
+  <data name="StemOrientation" xml:space="preserve">
+    <value>Stem Orientation</value>
+  </data>
   <data name="Stress" xml:space="preserve">
     <value>Stress</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
   </data>
   <data name="SuccessStories" xml:space="preserve">
     <value>Success Stories</value>
@@ -362,6 +440,12 @@
   </data>
   <data name="ValveDesing" xml:space="preserve">
     <value>Valve Desing</value>
+  </data>
+  <data name="ValvePlugSize" xml:space="preserve">
+    <value>Valve Plug Size</value>
+  </data>
+  <data name="ValvePlugType" xml:space="preserve">
+    <value>Valve Plug Type</value>
   </data>
   <data name="Velocity" xml:space="preserve">
     <value>Velocity</value>
