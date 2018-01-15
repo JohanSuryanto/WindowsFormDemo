@@ -25,9 +25,7 @@ namespace WindowsFormsDemo
             Thread.CurrentThread.CurrentUICulture = myCultureInfo;
             InitializeComponent();
 
-            label2.Text = myCultureInfo.CompareInfo.Name;
-            label37.Text = CommonResource.Description;
-            label55.Text = "INFO" + myCultureInfo.EnglishName;
+           
         }
 
         private void Update_Load(object sender, EventArgs e)
@@ -38,7 +36,7 @@ namespace WindowsFormsDemo
         private void button1_Click(object sender, EventArgs e)
         {
             Sync home = new Sync();
-            home.setCultureInfo(label2.Text);
+            //home.setCultureInfo(label2.Text);
             home.Show();
         }
     }

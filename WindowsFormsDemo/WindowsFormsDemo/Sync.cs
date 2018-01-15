@@ -24,10 +24,6 @@ namespace WindowsFormsDemo
             Thread.CurrentThread.CurrentCulture = myCultureInfo;
             Thread.CurrentThread.CurrentUICulture = myCultureInfo;
             InitializeComponent();
-
-            //label2.Text = myCultureInfo.CompareInfo.Name;
-            label37.Text = CommonResource.Description;
-            label55.Text = "INFO" + myCultureInfo.EnglishName;
         }
         private void Sync_Load(object sender, EventArgs e)
         {
