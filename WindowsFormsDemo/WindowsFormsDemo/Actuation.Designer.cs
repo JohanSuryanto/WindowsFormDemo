@@ -29,22 +29,22 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.LabelForceDefinition = new System.Windows.Forms.Label();
+            this.LabelValvePlugSize = new System.Windows.Forms.Label();
+            this.LabelValvePlugType = new System.Windows.Forms.Label();
+            this.LabelLeakageClass = new System.Windows.Forms.Label();
+            this.LabelStemOrientation = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
+            this.LabelPlugDiameter = new System.Windows.Forms.Label();
+            this.LabelMeanContact = new System.Windows.Forms.Label();
+            this.LabelMeanWidth = new System.Windows.Forms.Label();
+            this.LabelPlugSeal = new System.Windows.Forms.Label();
+            this.LabelStem = new System.Windows.Forms.Label();
+            this.LabelActual = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -58,13 +58,13 @@
             this.label18 = new System.Windows.Forms.Label();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
+            this.LabelPack = new System.Windows.Forms.Label();
+            this.LabelFric = new System.Windows.Forms.Label();
+            this.LabelPacking = new System.Windows.Forms.Label();
+            this.LabelSeal = new System.Windows.Forms.Label();
+            this.LabelCoeff = new System.Windows.Forms.Label();
+            this.LabelPlugDiam = new System.Windows.Forms.Label();
+            this.LabelPlugWeight = new System.Windows.Forms.Label();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.label27 = new System.Windows.Forms.Label();
             this.textBox10 = new System.Windows.Forms.TextBox();
@@ -78,28 +78,28 @@
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.label29 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
+            this.LabelHydraulicSeated = new System.Windows.Forms.Label();
+            this.LabelHydraulicRunning = new System.Windows.Forms.Label();
+            this.LabelPressureUnderPlug = new System.Windows.Forms.Label();
+            this.LabelPressureOverPlug = new System.Windows.Forms.Label();
+            this.LabelDescription = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
             this.label39 = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
             this.label41 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.label45 = new System.Windows.Forms.Label();
-            this.label46 = new System.Windows.Forms.Label();
-            this.label47 = new System.Windows.Forms.Label();
+            this.LabelThrustSeat = new System.Windows.Forms.Label();
+            this.LabelForceCloseSeat = new System.Windows.Forms.Label();
+            this.LabelForceClose = new System.Windows.Forms.Label();
+            this.LabelForceSeat = new System.Windows.Forms.Label();
+            this.LabelForceRunning = new System.Windows.Forms.Label();
+            this.LabelRequiredPLI = new System.Windows.Forms.Label();
             this.label48 = new System.Windows.Forms.Label();
             this.label49 = new System.Windows.Forms.Label();
             this.label50 = new System.Windows.Forms.Label();
             this.label51 = new System.Windows.Forms.Label();
             this.label52 = new System.Windows.Forms.Label();
             this.label53 = new System.Windows.Forms.Label();
-            this.label54 = new System.Windows.Forms.Label();
+            this.LabelCriticalForce = new System.Windows.Forms.Label();
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.textBox14 = new System.Windows.Forms.TextBox();
             this.textBox16 = new System.Windows.Forms.TextBox();
@@ -141,6 +141,7 @@
             this.textBox52 = new System.Windows.Forms.TextBox();
             this.textBox53 = new System.Windows.Forms.TextBox();
             this.textBox54 = new System.Windows.Forms.TextBox();
+            this.textBox55 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -154,50 +155,50 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Valve Details";
             // 
-            // label2
+            // LabelForceDefinition
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(30, 55);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(81, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Force Definition";
+            this.LabelForceDefinition.AutoSize = true;
+            this.LabelForceDefinition.Location = new System.Drawing.Point(30, 55);
+            this.LabelForceDefinition.Name = "LabelForceDefinition";
+            this.LabelForceDefinition.Size = new System.Drawing.Size(81, 13);
+            this.LabelForceDefinition.TabIndex = 1;
+            this.LabelForceDefinition.Text = "Force Definition";
             // 
-            // label3
+            // LabelValvePlugSize
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(30, 78);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(81, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Valve Plug Size";
+            this.LabelValvePlugSize.AutoSize = true;
+            this.LabelValvePlugSize.Location = new System.Drawing.Point(30, 78);
+            this.LabelValvePlugSize.Name = "LabelValvePlugSize";
+            this.LabelValvePlugSize.Size = new System.Drawing.Size(81, 13);
+            this.LabelValvePlugSize.TabIndex = 2;
+            this.LabelValvePlugSize.Text = "Valve Plug Size";
             // 
-            // label4
+            // LabelValvePlugType
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(30, 103);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(85, 13);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Valve Plug Type";
+            this.LabelValvePlugType.AutoSize = true;
+            this.LabelValvePlugType.Location = new System.Drawing.Point(30, 103);
+            this.LabelValvePlugType.Name = "LabelValvePlugType";
+            this.LabelValvePlugType.Size = new System.Drawing.Size(85, 13);
+            this.LabelValvePlugType.TabIndex = 3;
+            this.LabelValvePlugType.Text = "Valve Plug Type";
             // 
-            // label5
+            // LabelLeakageClass
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(30, 126);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(77, 13);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Leakage Class";
+            this.LabelLeakageClass.AutoSize = true;
+            this.LabelLeakageClass.Location = new System.Drawing.Point(30, 126);
+            this.LabelLeakageClass.Name = "LabelLeakageClass";
+            this.LabelLeakageClass.Size = new System.Drawing.Size(77, 13);
+            this.LabelLeakageClass.TabIndex = 4;
+            this.LabelLeakageClass.Text = "Leakage Class";
             // 
-            // label6
+            // LabelStemOrientation
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(30, 148);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(85, 13);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Stem Orientation";
+            this.LabelStemOrientation.AutoSize = true;
+            this.LabelStemOrientation.Location = new System.Drawing.Point(30, 148);
+            this.LabelStemOrientation.Name = "LabelStemOrientation";
+            this.LabelStemOrientation.Size = new System.Drawing.Size(85, 13);
+            this.LabelStemOrientation.TabIndex = 5;
+            this.LabelStemOrientation.Text = "Stem Orientation";
             // 
             // comboBox1
             // 
@@ -261,59 +262,59 @@
             this.textBox2.Text = "User / Auto";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // label7
+            // LabelPlugDiameter
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(324, 59);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(73, 13);
-            this.label7.TabIndex = 11;
-            this.label7.Text = "Plug Diameter";
+            this.LabelPlugDiameter.AutoSize = true;
+            this.LabelPlugDiameter.Location = new System.Drawing.Point(324, 59);
+            this.LabelPlugDiameter.Name = "LabelPlugDiameter";
+            this.LabelPlugDiameter.Size = new System.Drawing.Size(73, 13);
+            this.LabelPlugDiameter.TabIndex = 11;
+            this.LabelPlugDiameter.Text = "Plug Diameter";
             // 
-            // label8
+            // LabelMeanContact
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(324, 86);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(144, 13);
-            this.label8.TabIndex = 12;
-            this.label8.Text = "Mean Seat Contact Diameter";
+            this.LabelMeanContact.AutoSize = true;
+            this.LabelMeanContact.Location = new System.Drawing.Point(324, 86);
+            this.LabelMeanContact.Name = "LabelMeanContact";
+            this.LabelMeanContact.Size = new System.Drawing.Size(144, 13);
+            this.LabelMeanContact.TabIndex = 12;
+            this.LabelMeanContact.Text = "Mean Seat Contact Diameter";
             // 
-            // label9
+            // LabelMeanWidth
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(324, 112);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(90, 13);
-            this.label9.TabIndex = 13;
-            this.label9.Text = "Mean Seat Width";
+            this.LabelMeanWidth.AutoSize = true;
+            this.LabelMeanWidth.Location = new System.Drawing.Point(324, 112);
+            this.LabelMeanWidth.Name = "LabelMeanWidth";
+            this.LabelMeanWidth.Size = new System.Drawing.Size(90, 13);
+            this.LabelMeanWidth.TabIndex = 13;
+            this.LabelMeanWidth.Text = "Mean Seat Width";
             // 
-            // label10
+            // LabelPlugSeal
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(324, 138);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(97, 13);
-            this.label10.TabIndex = 14;
-            this.label10.Text = "Plug Seal Diameter";
+            this.LabelPlugSeal.AutoSize = true;
+            this.LabelPlugSeal.Location = new System.Drawing.Point(324, 138);
+            this.LabelPlugSeal.Name = "LabelPlugSeal";
+            this.LabelPlugSeal.Size = new System.Drawing.Size(97, 13);
+            this.LabelPlugSeal.TabIndex = 14;
+            this.LabelPlugSeal.Text = "Plug Seal Diameter";
             // 
-            // label11
+            // LabelStem
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(324, 161);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(76, 13);
-            this.label11.TabIndex = 15;
-            this.label11.Text = "Stem Diameter";
+            this.LabelStem.AutoSize = true;
+            this.LabelStem.Location = new System.Drawing.Point(324, 161);
+            this.LabelStem.Name = "LabelStem";
+            this.LabelStem.Size = new System.Drawing.Size(76, 13);
+            this.LabelStem.TabIndex = 15;
+            this.LabelStem.Text = "Stem Diameter";
             // 
-            // label12
+            // LabelActual
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(324, 187);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(112, 13);
-            this.label12.TabIndex = 16;
-            this.label12.Text = "Actual Value Diameter";
+            this.LabelActual.AutoSize = true;
+            this.LabelActual.Location = new System.Drawing.Point(324, 187);
+            this.LabelActual.Name = "LabelActual";
+            this.LabelActual.Size = new System.Drawing.Size(112, 13);
+            this.LabelActual.TabIndex = 16;
+            this.LabelActual.Text = "Actual Value Diameter";
             // 
             // label13
             // 
@@ -438,68 +439,68 @@
             this.label19.TabIndex = 28;
             this.label19.Text = "in.";
             // 
-            // label20
+            // LabelPack
             // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(646, 190);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(82, 13);
-            this.label20.TabIndex = 35;
-            this.label20.Text = "Packing Lenght";
+            this.LabelPack.AutoSize = true;
+            this.LabelPack.Location = new System.Drawing.Point(646, 190);
+            this.LabelPack.Name = "LabelPack";
+            this.LabelPack.Size = new System.Drawing.Size(82, 13);
+            this.LabelPack.TabIndex = 35;
+            this.LabelPack.Text = "Packing Lenght";
             // 
-            // label21
+            // LabelFric
             // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(646, 164);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(84, 13);
-            this.label21.TabIndex = 34;
-            this.label21.Text = "Coeff. of Friction";
+            this.LabelFric.AutoSize = true;
+            this.LabelFric.Location = new System.Drawing.Point(646, 164);
+            this.LabelFric.Name = "LabelFric";
+            this.LabelFric.Size = new System.Drawing.Size(84, 13);
+            this.LabelFric.TabIndex = 34;
+            this.LabelFric.Text = "Coeff. of Friction";
             // 
-            // label22
+            // LabelPacking
             // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(646, 141);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(86, 13);
-            this.label22.TabIndex = 33;
-            this.label22.Text = "Packing Material";
+            this.LabelPacking.AutoSize = true;
+            this.LabelPacking.Location = new System.Drawing.Point(646, 141);
+            this.LabelPacking.Name = "LabelPacking";
+            this.LabelPacking.Size = new System.Drawing.Size(86, 13);
+            this.LabelPacking.TabIndex = 33;
+            this.LabelPacking.Text = "Packing Material";
             // 
-            // label23
+            // LabelSeal
             // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(646, 115);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(64, 13);
-            this.label23.TabIndex = 32;
-            this.label23.Text = "Seal Lenght";
+            this.LabelSeal.AutoSize = true;
+            this.LabelSeal.Location = new System.Drawing.Point(646, 115);
+            this.LabelSeal.Name = "LabelSeal";
+            this.LabelSeal.Size = new System.Drawing.Size(64, 13);
+            this.LabelSeal.TabIndex = 32;
+            this.LabelSeal.Text = "Seal Lenght";
             // 
-            // label24
+            // LabelCoeff
             // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(646, 89);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(84, 13);
-            this.label24.TabIndex = 31;
-            this.label24.Text = "Coeff. of Friction";
+            this.LabelCoeff.AutoSize = true;
+            this.LabelCoeff.Location = new System.Drawing.Point(646, 89);
+            this.LabelCoeff.Name = "LabelCoeff";
+            this.LabelCoeff.Size = new System.Drawing.Size(84, 13);
+            this.LabelCoeff.TabIndex = 31;
+            this.LabelCoeff.Text = "Coeff. of Friction";
             // 
-            // label25
+            // LabelPlugDiam
             // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(646, 62);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(97, 13);
-            this.label25.TabIndex = 30;
-            this.label25.Text = "Plug Seal Diameter";
+            this.LabelPlugDiam.AutoSize = true;
+            this.LabelPlugDiam.Location = new System.Drawing.Point(646, 62);
+            this.LabelPlugDiam.Name = "LabelPlugDiam";
+            this.LabelPlugDiam.Size = new System.Drawing.Size(97, 13);
+            this.LabelPlugDiam.TabIndex = 30;
+            this.LabelPlugDiam.Text = "Plug Seal Diameter";
             // 
-            // label26
+            // LabelPlugWeight
             // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(646, 220);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(65, 13);
-            this.label26.TabIndex = 36;
-            this.label26.Text = "Plug Weight";
+            this.LabelPlugWeight.AutoSize = true;
+            this.LabelPlugWeight.Location = new System.Drawing.Point(646, 220);
+            this.LabelPlugWeight.Name = "LabelPlugWeight";
+            this.LabelPlugWeight.Size = new System.Drawing.Size(65, 13);
+            this.LabelPlugWeight.TabIndex = 36;
+            this.LabelPlugWeight.Text = "Plug Weight";
             // 
             // textBox9
             // 
@@ -635,50 +636,50 @@
             this.label29.TabIndex = 52;
             this.label29.Text = "Required Forces";
             // 
-            // label33
+            // LabelHydraulicSeated
             // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(30, 429);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(121, 13);
-            this.label33.TabIndex = 57;
-            this.label33.Text = "Hydraulic Force, Seated";
+            this.LabelHydraulicSeated.AutoSize = true;
+            this.LabelHydraulicSeated.Location = new System.Drawing.Point(30, 429);
+            this.LabelHydraulicSeated.Name = "LabelHydraulicSeated";
+            this.LabelHydraulicSeated.Size = new System.Drawing.Size(121, 13);
+            this.LabelHydraulicSeated.TabIndex = 57;
+            this.LabelHydraulicSeated.Text = "Hydraulic Force, Seated";
             // 
-            // label34
+            // LabelHydraulicRunning
             // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(30, 407);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(127, 13);
-            this.label34.TabIndex = 56;
-            this.label34.Text = "Hydraulic Force, Running";
+            this.LabelHydraulicRunning.AutoSize = true;
+            this.LabelHydraulicRunning.Location = new System.Drawing.Point(30, 407);
+            this.LabelHydraulicRunning.Name = "LabelHydraulicRunning";
+            this.LabelHydraulicRunning.Size = new System.Drawing.Size(127, 13);
+            this.LabelHydraulicRunning.TabIndex = 56;
+            this.LabelHydraulicRunning.Text = "Hydraulic Force, Running";
             // 
-            // label35
+            // LabelPressureUnderPlug
             // 
-            this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(30, 384);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(104, 13);
-            this.label35.TabIndex = 55;
-            this.label35.Text = "Pressure Under Plug";
+            this.LabelPressureUnderPlug.AutoSize = true;
+            this.LabelPressureUnderPlug.Location = new System.Drawing.Point(30, 384);
+            this.LabelPressureUnderPlug.Name = "LabelPressureUnderPlug";
+            this.LabelPressureUnderPlug.Size = new System.Drawing.Size(104, 13);
+            this.LabelPressureUnderPlug.TabIndex = 55;
+            this.LabelPressureUnderPlug.Text = "Pressure Under Plug";
             // 
-            // label36
+            // LabelPressureOverPlug
             // 
-            this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(30, 359);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(98, 13);
-            this.label36.TabIndex = 54;
-            this.label36.Text = "Pressure Over Plug";
+            this.LabelPressureOverPlug.AutoSize = true;
+            this.LabelPressureOverPlug.Location = new System.Drawing.Point(30, 359);
+            this.LabelPressureOverPlug.Name = "LabelPressureOverPlug";
+            this.LabelPressureOverPlug.Size = new System.Drawing.Size(98, 13);
+            this.LabelPressureOverPlug.TabIndex = 54;
+            this.LabelPressureOverPlug.Text = "Pressure Over Plug";
             // 
-            // label37
+            // LabelDescription
             // 
-            this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(30, 336);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(60, 13);
-            this.label37.TabIndex = 53;
-            this.label37.Text = "Description";
+            this.LabelDescription.AutoSize = true;
+            this.LabelDescription.Location = new System.Drawing.Point(30, 336);
+            this.LabelDescription.Name = "LabelDescription";
+            this.LabelDescription.Size = new System.Drawing.Size(60, 13);
+            this.LabelDescription.TabIndex = 53;
+            this.LabelDescription.Text = "Description";
             // 
             // label38
             // 
@@ -716,59 +717,59 @@
             this.label41.TabIndex = 58;
             this.label41.Text = "psi A";
             // 
-            // label42
+            // LabelThrustSeat
             // 
-            this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(30, 578);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(121, 13);
-            this.label42.TabIndex = 66;
-            this.label42.Text = "Hydraulic Force, Seated";
+            this.LabelThrustSeat.AutoSize = true;
+            this.LabelThrustSeat.Location = new System.Drawing.Point(30, 578);
+            this.LabelThrustSeat.Name = "LabelThrustSeat";
+            this.LabelThrustSeat.Size = new System.Drawing.Size(124, 13);
+            this.LabelThrustSeat.TabIndex = 66;
+            this.LabelThrustSeat.Text = "Thrust Required To Seat";
             // 
-            // label43
+            // LabelForceCloseSeat
             // 
-            this.label43.AutoSize = true;
-            this.label43.Location = new System.Drawing.Point(30, 556);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(127, 13);
-            this.label43.TabIndex = 65;
-            this.label43.Text = "Hydraulic Force, Running";
+            this.LabelForceCloseSeat.AutoSize = true;
+            this.LabelForceCloseSeat.Location = new System.Drawing.Point(30, 556);
+            this.LabelForceCloseSeat.Name = "LabelForceCloseSeat";
+            this.LabelForceCloseSeat.Size = new System.Drawing.Size(121, 13);
+            this.LabelForceCloseSeat.TabIndex = 65;
+            this.LabelForceCloseSeat.Text = "Force To Close On Seat";
             // 
-            // label44
+            // LabelForceClose
             // 
-            this.label44.AutoSize = true;
-            this.label44.Location = new System.Drawing.Point(30, 533);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(104, 13);
-            this.label44.TabIndex = 64;
-            this.label44.Text = "Pressure Under Plug";
+            this.LabelForceClose.AutoSize = true;
+            this.LabelForceClose.Location = new System.Drawing.Point(30, 533);
+            this.LabelForceClose.Name = "LabelForceClose";
+            this.LabelForceClose.Size = new System.Drawing.Size(125, 13);
+            this.LabelForceClose.TabIndex = 64;
+            this.LabelForceClose.Text = "Force To Close, Running";
             // 
-            // label45
+            // LabelForceSeat
             // 
-            this.label45.AutoSize = true;
-            this.label45.Location = new System.Drawing.Point(30, 508);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(98, 13);
-            this.label45.TabIndex = 63;
-            this.label45.Text = "Pressure Over Plug";
+            this.LabelForceSeat.AutoSize = true;
+            this.LabelForceSeat.Location = new System.Drawing.Point(30, 508);
+            this.LabelForceSeat.Name = "LabelForceSeat";
+            this.LabelForceSeat.Size = new System.Drawing.Size(118, 13);
+            this.LabelForceSeat.TabIndex = 63;
+            this.LabelForceSeat.Text = "Force To Lift From Seat";
             // 
-            // label46
+            // LabelForceRunning
             // 
-            this.label46.AutoSize = true;
-            this.label46.Location = new System.Drawing.Point(30, 485);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(60, 13);
-            this.label46.TabIndex = 62;
-            this.label46.Text = "Description";
+            this.LabelForceRunning.AutoSize = true;
+            this.LabelForceRunning.Location = new System.Drawing.Point(30, 485);
+            this.LabelForceRunning.Name = "LabelForceRunning";
+            this.LabelForceRunning.Size = new System.Drawing.Size(113, 13);
+            this.LabelForceRunning.TabIndex = 62;
+            this.LabelForceRunning.Text = "Force To Lift, Running";
             // 
-            // label47
+            // LabelRequiredPLI
             // 
-            this.label47.AutoSize = true;
-            this.label47.Location = new System.Drawing.Point(30, 603);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(121, 13);
-            this.label47.TabIndex = 67;
-            this.label47.Text = "Hydraulic Force, Seated";
+            this.LabelRequiredPLI.AutoSize = true;
+            this.LabelRequiredPLI.Location = new System.Drawing.Point(30, 603);
+            this.LabelRequiredPLI.Name = "LabelRequiredPLI";
+            this.LabelRequiredPLI.Size = new System.Drawing.Size(104, 13);
+            this.LabelRequiredPLI.TabIndex = 67;
+            this.LabelRequiredPLI.Text = "Required Seat \"PLI\"";
             // 
             // label48
             // 
@@ -824,20 +825,20 @@
             this.label53.TabIndex = 72;
             this.label53.Text = "lbs.";
             // 
-            // label54
+            // LabelCriticalForce
             // 
-            this.label54.AutoSize = true;
-            this.label54.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label54.Location = new System.Drawing.Point(274, 470);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(88, 13);
-            this.label54.TabIndex = 74;
-            this.label54.Text = "Critical Forces";
+            this.LabelCriticalForce.AutoSize = true;
+            this.LabelCriticalForce.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelCriticalForce.Location = new System.Drawing.Point(276, 460);
+            this.LabelCriticalForce.Name = "LabelCriticalForce";
+            this.LabelCriticalForce.Size = new System.Drawing.Size(88, 13);
+            this.LabelCriticalForce.TabIndex = 74;
+            this.LabelCriticalForce.Text = "Critical Forces";
             // 
             // textBox11
             // 
             this.textBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox11.Location = new System.Drawing.Point(256, 486);
+            this.textBox11.Location = new System.Drawing.Point(256, 478);
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(124, 20);
             this.textBox11.TabIndex = 75;
@@ -847,7 +848,7 @@
             // textBox14
             // 
             this.textBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox14.Location = new System.Drawing.Point(256, 512);
+            this.textBox14.Location = new System.Drawing.Point(256, 505);
             this.textBox14.Name = "textBox14";
             this.textBox14.Size = new System.Drawing.Size(124, 20);
             this.textBox14.TabIndex = 76;
@@ -857,7 +858,7 @@
             // textBox16
             // 
             this.textBox16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox16.Location = new System.Drawing.Point(256, 564);
+            this.textBox16.Location = new System.Drawing.Point(256, 556);
             this.textBox16.Name = "textBox16";
             this.textBox16.Size = new System.Drawing.Size(124, 20);
             this.textBox16.TabIndex = 78;
@@ -867,7 +868,7 @@
             // textBox17
             // 
             this.textBox17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox17.Location = new System.Drawing.Point(256, 538);
+            this.textBox17.Location = new System.Drawing.Point(256, 530);
             this.textBox17.Name = "textBox17";
             this.textBox17.Size = new System.Drawing.Size(124, 20);
             this.textBox17.TabIndex = 77;
@@ -877,7 +878,7 @@
             // textBox19
             // 
             this.textBox19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox19.Location = new System.Drawing.Point(256, 590);
+            this.textBox19.Location = new System.Drawing.Point(256, 582);
             this.textBox19.Name = "textBox19";
             this.textBox19.Size = new System.Drawing.Size(124, 20);
             this.textBox19.TabIndex = 79;
@@ -1244,12 +1245,23 @@
             this.textBox54.Text = "Auto";
             this.textBox54.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // textBox55
+            // 
+            this.textBox55.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox55.Location = new System.Drawing.Point(256, 608);
+            this.textBox55.Name = "textBox55";
+            this.textBox55.Size = new System.Drawing.Size(124, 20);
+            this.textBox55.TabIndex = 116;
+            this.textBox55.Text = "Calculated";
+            this.textBox55.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // Actuation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(1028, 698);
+            this.Controls.Add(this.textBox55);
             this.Controls.Add(this.textBox54);
             this.Controls.Add(this.textBox53);
             this.Controls.Add(this.textBox52);
@@ -1291,28 +1303,28 @@
             this.Controls.Add(this.textBox17);
             this.Controls.Add(this.textBox14);
             this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.label54);
+            this.Controls.Add(this.LabelCriticalForce);
             this.Controls.Add(this.label52);
             this.Controls.Add(this.label53);
             this.Controls.Add(this.label50);
             this.Controls.Add(this.label51);
             this.Controls.Add(this.label48);
             this.Controls.Add(this.label49);
-            this.Controls.Add(this.label47);
-            this.Controls.Add(this.label42);
-            this.Controls.Add(this.label43);
-            this.Controls.Add(this.label44);
-            this.Controls.Add(this.label45);
-            this.Controls.Add(this.label46);
+            this.Controls.Add(this.LabelRequiredPLI);
+            this.Controls.Add(this.LabelThrustSeat);
+            this.Controls.Add(this.LabelForceCloseSeat);
+            this.Controls.Add(this.LabelForceClose);
+            this.Controls.Add(this.LabelForceSeat);
+            this.Controls.Add(this.LabelForceRunning);
             this.Controls.Add(this.label38);
             this.Controls.Add(this.label39);
             this.Controls.Add(this.label40);
             this.Controls.Add(this.label41);
-            this.Controls.Add(this.label33);
-            this.Controls.Add(this.label34);
-            this.Controls.Add(this.label35);
-            this.Controls.Add(this.label36);
-            this.Controls.Add(this.label37);
+            this.Controls.Add(this.LabelHydraulicSeated);
+            this.Controls.Add(this.LabelHydraulicRunning);
+            this.Controls.Add(this.LabelPressureUnderPlug);
+            this.Controls.Add(this.LabelPressureOverPlug);
+            this.Controls.Add(this.LabelDescription);
             this.Controls.Add(this.label29);
             this.Controls.Add(this.comboBox5);
             this.Controls.Add(this.comboBox4);
@@ -1326,13 +1338,13 @@
             this.Controls.Add(this.textBox13);
             this.Controls.Add(this.label31);
             this.Controls.Add(this.label32);
-            this.Controls.Add(this.label26);
-            this.Controls.Add(this.label20);
-            this.Controls.Add(this.label21);
-            this.Controls.Add(this.label22);
-            this.Controls.Add(this.label23);
-            this.Controls.Add(this.label24);
-            this.Controls.Add(this.label25);
+            this.Controls.Add(this.LabelPlugWeight);
+            this.Controls.Add(this.LabelPack);
+            this.Controls.Add(this.LabelFric);
+            this.Controls.Add(this.LabelPacking);
+            this.Controls.Add(this.LabelSeal);
+            this.Controls.Add(this.LabelCoeff);
+            this.Controls.Add(this.LabelPlugDiam);
             this.Controls.Add(this.textBox8);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.textBox7);
@@ -1346,22 +1358,22 @@
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.LabelActual);
+            this.Controls.Add(this.LabelStem);
+            this.Controls.Add(this.LabelPlugSeal);
+            this.Controls.Add(this.LabelMeanWidth);
+            this.Controls.Add(this.LabelMeanContact);
+            this.Controls.Add(this.LabelPlugDiameter);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.LabelStemOrientation);
+            this.Controls.Add(this.LabelLeakageClass);
+            this.Controls.Add(this.LabelValvePlugType);
+            this.Controls.Add(this.LabelValvePlugSize);
+            this.Controls.Add(this.LabelForceDefinition);
             this.Controls.Add(this.label1);
             this.Name = "Actuation";
             this.Text = "Actuation";
@@ -1374,22 +1386,22 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label LabelForceDefinition;
+        private System.Windows.Forms.Label LabelValvePlugSize;
+        private System.Windows.Forms.Label LabelValvePlugType;
+        private System.Windows.Forms.Label LabelLeakageClass;
+        private System.Windows.Forms.Label LabelStemOrientation;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label LabelPlugDiameter;
+        private System.Windows.Forms.Label LabelMeanContact;
+        private System.Windows.Forms.Label LabelMeanWidth;
+        private System.Windows.Forms.Label LabelPlugSeal;
+        private System.Windows.Forms.Label LabelStem;
+        private System.Windows.Forms.Label LabelActual;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.TextBox textBox3;
@@ -1403,13 +1415,13 @@
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label LabelPack;
+        private System.Windows.Forms.Label LabelFric;
+        private System.Windows.Forms.Label LabelPacking;
+        private System.Windows.Forms.Label LabelSeal;
+        private System.Windows.Forms.Label LabelCoeff;
+        private System.Windows.Forms.Label LabelPlugDiam;
+        private System.Windows.Forms.Label LabelPlugWeight;
         private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.TextBox textBox10;
@@ -1423,28 +1435,28 @@
         private System.Windows.Forms.ComboBox comboBox4;
         private System.Windows.Forms.ComboBox comboBox5;
         private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.Label LabelHydraulicSeated;
+        private System.Windows.Forms.Label LabelHydraulicRunning;
+        private System.Windows.Forms.Label LabelPressureUnderPlug;
+        private System.Windows.Forms.Label LabelPressureOverPlug;
+        private System.Windows.Forms.Label LabelDescription;
         private System.Windows.Forms.Label label38;
         private System.Windows.Forms.Label label39;
         private System.Windows.Forms.Label label40;
         private System.Windows.Forms.Label label41;
-        private System.Windows.Forms.Label label42;
-        private System.Windows.Forms.Label label43;
-        private System.Windows.Forms.Label label44;
-        private System.Windows.Forms.Label label45;
-        private System.Windows.Forms.Label label46;
-        private System.Windows.Forms.Label label47;
+        private System.Windows.Forms.Label LabelThrustSeat;
+        private System.Windows.Forms.Label LabelForceCloseSeat;
+        private System.Windows.Forms.Label LabelForceClose;
+        private System.Windows.Forms.Label LabelForceSeat;
+        private System.Windows.Forms.Label LabelForceRunning;
+        private System.Windows.Forms.Label LabelRequiredPLI;
         private System.Windows.Forms.Label label48;
         private System.Windows.Forms.Label label49;
         private System.Windows.Forms.Label label50;
         private System.Windows.Forms.Label label51;
         private System.Windows.Forms.Label label52;
         private System.Windows.Forms.Label label53;
-        private System.Windows.Forms.Label label54;
+        private System.Windows.Forms.Label LabelCriticalForce;
         private System.Windows.Forms.TextBox textBox11;
         private System.Windows.Forms.TextBox textBox14;
         private System.Windows.Forms.TextBox textBox16;
@@ -1486,5 +1498,6 @@
         private System.Windows.Forms.TextBox textBox52;
         private System.Windows.Forms.TextBox textBox53;
         private System.Windows.Forms.TextBox textBox54;
+        private System.Windows.Forms.TextBox textBox55;
     }
 }

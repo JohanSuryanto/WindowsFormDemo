@@ -456,4 +456,25 @@
   <data name="Volume" xml:space="preserve">
     <value>Volume</value>
   </data>
+  <data name="ForceToCloseOnRunning" xml:space="preserve">
+    <value>Force To Close Running</value>
+  </data>
+  <data name="ForceToCloseOnSeat" xml:space="preserve">
+    <value>Force To Close OnSeat</value>
+  </data>
+  <data name="ForceToLiftFromSeat" xml:space="preserve">
+    <value>Force To Lift From Seat</value>
+  </data>
+  <data name="ForceToLiftRunning" xml:space="preserve">
+    <value>Force To Lift Running</value>
+  </data>
+  <data name="Required Seat &quot;PLI&quot;" xml:space="preserve">
+    <value>RequiredSeatPLI</value>
+  </data>
+  <data name="ThrustRequiredToSeat" xml:space="preserve">
+    <value>ThrustRequiredToSeat</value>
+  </data>
+  <data name="CriticalForces" xml:space="preserve">
+    <value>Critical Forces</value>
+  </data>
 </root>

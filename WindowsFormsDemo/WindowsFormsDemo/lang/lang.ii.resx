@@ -453,4 +453,25 @@
   <data name="Volume" xml:space="preserve">
     <value>卷</value>
   </data>
+  <data name="ForceToCloseOnSeat" xml:space="preserve">
+    <value>强行关闭座位</value>
+  </data>
+  <data name="ForceToCloseRunning" xml:space="preserve">
+    <value>强制关闭运行</value>
+  </data>
+  <data name="ForceToLiftFromSeat" xml:space="preserve">
+    <value>从座椅上抬起的力量</value>
+  </data>
+  <data name="ForceToLiftRunning" xml:space="preserve">
+    <value>力量举，跑</value>
+  </data>
+  <data name="RequiredSeatPLI" xml:space="preserve">
+    <value>所需席位“PLI”</value>
+  </data>
+  <data name="ThrustRequiredToSeat" xml:space="preserve">
+    <value>需要座椅的推力</value>
+  </data>
+  <data name="CriticalForces" xml:space="preserve">
+    <value>关键力量</value>
+  </data>
 </root>

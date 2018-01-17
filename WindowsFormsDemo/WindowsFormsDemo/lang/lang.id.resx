@@ -453,4 +453,25 @@
   <data name="Volume" xml:space="preserve">
     <value>Suara</value>
   </data>
+  <data name="ForceToCloseOnSeat" xml:space="preserve">
+    <value>Kekuatan Untuk Memadamkan Dari Awal</value>
+  </data>
+  <data name="ForceToCloseRunning" xml:space="preserve">
+    <value>Kekuatan Untuk Memadamkan Dari Bekerja</value>
+  </data>
+  <data name="ForceToLiftFromSeat" xml:space="preserve">
+    <value>Kekuatan Untuk Mengangkat Dari Awal</value>
+  </data>
+  <data name="ForceToLiftRunning" xml:space="preserve">
+    <value>Kekuatan Untuk Mengangkat</value>
+  </data>
+  <data name="RequiredSeatPLI" xml:space="preserve">
+    <value>Perlu "PLI"</value>
+  </data>
+  <data name="ThrustRequiredToSeat" xml:space="preserve">
+    <value>Dorongan Yang Diperlukan Dari Awal</value>
+  </data>
+  <data name="CriticalForces" xml:space="preserve">
+    <value>Paksaan Gawat</value>
+  </data>
 </root>
