@@ -474,4 +474,16 @@
   <data name="CriticalForces" xml:space="preserve">
     <value>关键力量</value>
   </data>
+  <data name="Button" xml:space="preserve">
+    <value>按键</value>
+  </data>
+  <data name="Descriptions" xml:space="preserve">
+    <value>说明</value>
+  </data>
+  <data name="DesignCondition" xml:space="preserve">
+    <value>设计条件</value>
+  </data>
+  <data name="OperatingConditions" xml:space="preserve">
+    <value>运行条件</value>
+  </data>
 </root>

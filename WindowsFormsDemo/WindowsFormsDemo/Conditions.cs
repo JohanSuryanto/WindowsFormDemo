@@ -26,13 +26,10 @@ namespace WindowsFormsDemo
 
         private void Conditions_Load(object sender, EventArgs e)
         {
-            Environment.SetEnvironmentVariable("lang", "ii-CN");
-
+            Environment.SetEnvironmentVariable("lang", "id-ID");
             string lang = Environment.GetEnvironmentVariable("lang");
             var obj = languageChange.start(lang);
 
-            //labelSelectConditions.Text = obj.resManage.GetString("SelectConditions", obj.cultureInfo);
-            //labelDescription.Text = obj.resManage.GetString("Description", obj.cultureInfo);
             LabelInletFlowRate.Text = obj.resManage.GetString("InletFlowRate", obj.cultureInfo);
             LabelInletPressure.Text = obj.resManage.GetString("InletPressure", obj.cultureInfo);
             LabelInletTemperature.Text = obj.resManage.GetString("InletTemperature", obj.cultureInfo);
@@ -46,13 +43,19 @@ namespace WindowsFormsDemo
             LabelInletEnthalpyFlow.Text = obj.resManage.GetString("InletEnthalpy", obj.cultureInfo);
             LabelInletDesityFlow.Text = obj.resManage.GetString("InletDensity", obj.cultureInfo);
             LabelPressureDifferentialFlow.Text = obj.resManage.GetString("PressureDifferential", obj.cultureInfo);
-            
+
             LabelInletFlowRateBlock.Text = obj.resManage.GetString("InletFlowRate", obj.cultureInfo);
             LabelInletPressureBlock.Text = obj.resManage.GetString("InletPressure", obj.cultureInfo);
             LabelInletTemperatureBlock.Text = obj.resManage.GetString("InletTemperature", obj.cultureInfo);
             LabelInletEnthalpyBlock.Text = obj.resManage.GetString("InletEnthalpy", obj.cultureInfo);
             LabelInletDensityBlock.Text = obj.resManage.GetString("InletDensity", obj.cultureInfo);
             LabelPressureDifferentialBlock.Text = obj.resManage.GetString("PressureDifferential", obj.cultureInfo);
+
+            LabelSelectConditions.Text = obj.resManage.GetString("SelectedConditions", obj.cultureInfo);
+            LabelDescription.Text = obj.resManage.GetString("Descriptions", obj.cultureInfo);
+            LabelOperatingConditions.Text = obj.resManage.GetString("OperatingConditions", obj.cultureInfo);
+            LabelButton.Text = obj.resManage.GetString("Button", obj.cultureInfo);
+            LabelDesignConditions.Text = obj.resManage.GetString("DesignCondition", obj.cultureInfo);
         }
     }
 }

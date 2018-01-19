@@ -169,7 +169,7 @@
     <value>Massa Jenis</value>
   </data>
   <data name="Desuperheating" xml:space="preserve">
-    <value>Desuperheating</value>
+    <value>Pendingin</value>
   </data>
   <data name="DisplaysProductsAttributes" xml:space="preserve">
     <value>Tampilan Atribut Produk</value>
@@ -473,5 +473,20 @@
   </data>
   <data name="CriticalForces" xml:space="preserve">
     <value>Paksaan Gawat</value>
+  </data>
+  <data name="Button" xml:space="preserve">
+    <value>Tombol</value>
+  </data>
+  <data name="Descriptions" xml:space="preserve">
+    <value>Deskripsi</value>
+  </data>
+  <data name="DesignCondition" xml:space="preserve">
+    <value>Kondisi Desain</value>
+  </data>
+  <data name="OperatingConditions" xml:space="preserve">
+    <value>Kondisi Operasi</value>
+  </data>
+  <data name="SelectedOperations" xml:space="preserve">
+    <value>Kondisi operasi</value>
   </data>
 </root>

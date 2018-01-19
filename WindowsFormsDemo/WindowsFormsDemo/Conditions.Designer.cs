@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.labelButton = new System.Windows.Forms.Label();
-            this.labelDesignConditions = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.labelSelectConditions = new System.Windows.Forms.Label();
-            this.labelDescription = new System.Windows.Forms.Label();
+            this.LabelButton = new System.Windows.Forms.Label();
+            this.LabelDesignConditions = new System.Windows.Forms.Label();
+            this.LabelOperatingConditions = new System.Windows.Forms.Label();
+            this.LabelSelectConditions = new System.Windows.Forms.Label();
+            this.LabelDescription = new System.Windows.Forms.Label();
             this.labelSteamBlock = new System.Windows.Forms.Label();
             this.LabelInletFlowRate = new System.Windows.Forms.Label();
             this.LabelInletPressure = new System.Windows.Forms.Label();
@@ -168,56 +168,56 @@
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // labelButton
+            // LabelButton
             // 
-            this.labelButton.AutoSize = true;
-            this.labelButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelButton.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.labelButton.Location = new System.Drawing.Point(12, 34);
-            this.labelButton.Name = "labelButton";
-            this.labelButton.Size = new System.Drawing.Size(59, 16);
-            this.labelButton.TabIndex = 0;
-            this.labelButton.Text = "Buttons?";
+            this.LabelButton.AutoSize = true;
+            this.LabelButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelButton.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.LabelButton.Location = new System.Drawing.Point(12, 34);
+            this.LabelButton.Name = "LabelButton";
+            this.LabelButton.Size = new System.Drawing.Size(59, 16);
+            this.LabelButton.TabIndex = 0;
+            this.LabelButton.Text = "Buttons?";
             // 
-            // labelDesignConditions
+            // LabelDesignConditions
             // 
-            this.labelDesignConditions.AutoSize = true;
-            this.labelDesignConditions.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelDesignConditions.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.labelDesignConditions.Location = new System.Drawing.Point(169, 34);
-            this.labelDesignConditions.Name = "labelDesignConditions";
-            this.labelDesignConditions.Size = new System.Drawing.Size(117, 16);
-            this.labelDesignConditions.TabIndex = 1;
-            this.labelDesignConditions.Text = "Design Conditions";
+            this.LabelDesignConditions.AutoSize = true;
+            this.LabelDesignConditions.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelDesignConditions.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.LabelDesignConditions.Location = new System.Drawing.Point(169, 34);
+            this.LabelDesignConditions.Name = "LabelDesignConditions";
+            this.LabelDesignConditions.Size = new System.Drawing.Size(117, 16);
+            this.LabelDesignConditions.TabIndex = 1;
+            this.LabelDesignConditions.Text = "Design Conditions";
             // 
-            // label3
+            // LabelOperatingConditions
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label3.Location = new System.Drawing.Point(504, 34);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(133, 16);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Operating Conditions";
+            this.LabelOperatingConditions.AutoSize = true;
+            this.LabelOperatingConditions.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelOperatingConditions.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.LabelOperatingConditions.Location = new System.Drawing.Point(504, 34);
+            this.LabelOperatingConditions.Name = "LabelOperatingConditions";
+            this.LabelOperatingConditions.Size = new System.Drawing.Size(133, 16);
+            this.LabelOperatingConditions.TabIndex = 2;
+            this.LabelOperatingConditions.Text = "Operating Conditions";
             // 
-            // labelSelectConditions
+            // LabelSelectConditions
             // 
-            this.labelSelectConditions.AutoSize = true;
-            this.labelSelectConditions.Location = new System.Drawing.Point(12, 85);
-            this.labelSelectConditions.Name = "labelSelectConditions";
-            this.labelSelectConditions.Size = new System.Drawing.Size(101, 13);
-            this.labelSelectConditions.TabIndex = 3;
-            this.labelSelectConditions.Text = "Selected Conditions";
+            this.LabelSelectConditions.AutoSize = true;
+            this.LabelSelectConditions.Location = new System.Drawing.Point(12, 85);
+            this.LabelSelectConditions.Name = "LabelSelectConditions";
+            this.LabelSelectConditions.Size = new System.Drawing.Size(101, 13);
+            this.LabelSelectConditions.TabIndex = 3;
+            this.LabelSelectConditions.Text = "Selected Conditions";
             // 
-            // labelDescription
+            // LabelDescription
             // 
-            this.labelDescription.AutoSize = true;
-            this.labelDescription.Location = new System.Drawing.Point(12, 123);
-            this.labelDescription.Name = "labelDescription";
-            this.labelDescription.Size = new System.Drawing.Size(60, 13);
-            this.labelDescription.TabIndex = 4;
-            this.labelDescription.Text = "Description";
+            this.LabelDescription.AutoSize = true;
+            this.LabelDescription.Location = new System.Drawing.Point(12, 123);
+            this.LabelDescription.Name = "LabelDescription";
+            this.LabelDescription.Size = new System.Drawing.Size(60, 13);
+            this.LabelDescription.TabIndex = 4;
+            this.LabelDescription.Text = "Description";
             // 
             // labelSteamBlock
             // 
@@ -1570,11 +1570,11 @@
             this.Controls.Add(this.LabelInletPressure);
             this.Controls.Add(this.LabelInletFlowRate);
             this.Controls.Add(this.labelSteamBlock);
-            this.Controls.Add(this.labelDescription);
-            this.Controls.Add(this.labelSelectConditions);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.labelDesignConditions);
-            this.Controls.Add(this.labelButton);
+            this.Controls.Add(this.LabelDescription);
+            this.Controls.Add(this.LabelSelectConditions);
+            this.Controls.Add(this.LabelOperatingConditions);
+            this.Controls.Add(this.LabelDesignConditions);
+            this.Controls.Add(this.LabelButton);
             this.Controls.Add(this.panel1);
             this.Name = "Conditions";
             this.Text = "Conditions";
@@ -1589,11 +1589,11 @@
 
         #endregion
 
-        private System.Windows.Forms.Label labelButton;
-        private System.Windows.Forms.Label labelDesignConditions;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label labelSelectConditions;
-        private System.Windows.Forms.Label labelDescription;
+        private System.Windows.Forms.Label LabelButton;
+        private System.Windows.Forms.Label LabelDesignConditions;
+        private System.Windows.Forms.Label LabelOperatingConditions;
+        private System.Windows.Forms.Label LabelSelectConditions;
+        private System.Windows.Forms.Label LabelDescription;
         private System.Windows.Forms.Label labelSteamBlock;
         private System.Windows.Forms.Label LabelInletFlowRate;
         private System.Windows.Forms.Label LabelInletPressure;

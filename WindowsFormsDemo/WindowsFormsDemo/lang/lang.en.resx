@@ -477,4 +477,16 @@
   <data name="CriticalForces" xml:space="preserve">
     <value>Critical Forces</value>
   </data>
+  <data name="Button" xml:space="preserve">
+    <value>Button</value>
+  </data>
+  <data name="Descriptions" xml:space="preserve">
+    <value>Descriptions</value>
+  </data>
+  <data name="DesignCondition" xml:space="preserve">
+    <value>Design Condition</value>
+  </data>
+  <data name="OperatingConditions" xml:space="preserve">
+    <value>Operating Conditions</value>
+  </data>
 </root>
